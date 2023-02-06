@@ -1,4 +1,4 @@
-<form class="border border-dark">
+<form class="border border-dark" >
     <div class="row g-0">
         <div class="col text-center p-2 mb-3 bg-light">
             <span class="fs-3">Register</span>
@@ -13,5 +13,27 @@
             <label for="lastname" class="form-label">Last Name</label>
             <input type="text" class="form-control" id="lastname" >
         </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="email" class="form-label">Email</label>
+            <div class="input-group">
+              <span class="input-group-text" id="inputGroupPrepend2">@</span>
+              <input type="email" class="form-control" id="email"  aria-describedby="inputGroupPrepend2" required>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" aria-describedby="inputPasssword" required>
+        </div>
+        <div class="col">
+            <label for="c_password" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="c_password" aria-describedby="inputPasssword" required>
+        </div>
+    </div>
+    <div class="row text-center">
+        <app-button type="submit"  text="Register" [btnClass]="'btn-primary'" (btnClick)="value()"></app-button>
     </div>
 </form>
