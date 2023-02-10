@@ -1,7 +1,7 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-button',
+  selector: 'mt-button',
   templateUrl: './button.component.html',
   styleUrls: ['./button.component.css']
 })
@@ -19,11 +19,11 @@ export class ButtonComponent {
 	@Input() btnClass: string = 'btn-success';
 	@Input() type: string = 'button';
 	@Output() btnClick = new EventEmitter();
-
+	@Input() isDisabled = false;
 
 	constructor() {}
 
 	onClick() {
-		this.btnClick.emit('test');
+		this.btnClick.emit();
 	}
 }
