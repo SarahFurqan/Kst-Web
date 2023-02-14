@@ -147,13 +147,20 @@ padding: 10px;
     border: 0px;
     overflow: hidden;
 }
+
 .box1{
     
-    background-color: #F2F2F2;
+    background-color: #F2F2F2 !important;
+}
+.card:hover
+{
+    background-color: #5EBE80 !important;
+    cursor: pointer;
 }
 .box2{
-    background-color: #5EBE80;
+    background-color: #F2F2F2;
 }
+
 .box3{
     background-color: #F2F2F2;
 }

@@ -13,19 +13,24 @@ footer {
     font-family: outfit;
 
 }
-
-.end {
+.ftr
+{
     background-color: #29416F;
+    padding: 0px !important;
+    margin: 0px !important;
+    overflow: hidden;
+
+}
+.end {
     color: aliceblue;
     font-family: outfit;
     display: flex;
+    justify-content: space-around ;
+    align-items: center !important;
+    padding: 0px !important;
+    margin-top: 13px ;
 }
 
-.end1 {
-    text-align: end;
-    font-family: outfit;
-  
-}
 
 .btn1 {
     color: #29416F;
