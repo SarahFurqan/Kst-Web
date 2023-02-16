@@ -19,6 +19,7 @@ import { LogInPageComponent } from './Components/log-in-page/log-in-page.compone
 
 
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -43,6 +44,8 @@ import { LogInPageComponent } from './Components/log-in-page/log-in-page.compone
     FormsModule,
     AppRoutingModule,
     ReactiveFormsModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

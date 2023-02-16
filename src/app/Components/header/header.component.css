@@ -1,0 +1,39 @@
+.d-flex button {
+    background-color: #29416F;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    border-color: #5EBE80;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+   
+}
+.nav-item 
+{
+    margin: 0px 10px !important;
+}
+.d-flex button:hover {
+    background-color: #5EBE80;
+    color: white;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+    overflow: hidden;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 650;
+}
+
+.navbar-brand img {
+position: relative;
+left: 150px;
+
+}
+.d-flex 
+{
+    width: 10% !important;
+}
