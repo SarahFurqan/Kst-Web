@@ -13,23 +13,38 @@ footer {
     font-family: outfit;
 
 }
-.ftr
-{
+
+.ftr {
     background-color: #29416F;
     padding: 0px !important;
     margin: 0px !important;
     overflow: hidden;
 
 }
+
 .end {
     color: aliceblue;
     font-family: outfit;
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-around;
     align-items: center !important;
     padding: 0px !important;
-    margin-top: 13px ;
+    margin-top: 13px;
 }
+
+.btn1:hover {
+    color: #5EBE80 !important;
+    cursor: pointer;
+}
+.btn2:hover {
+    color: #5EBE80 !important;
+    cursor: pointer;
+}
+.btn3:hover {
+    color: #5EBE80 !important;
+    cursor: pointer;
+}
+
 
 
 .btn1 {
@@ -48,5 +63,5 @@ footer {
 
 .iconss {
     color: #29416F;
-    
+
 }

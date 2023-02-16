@@ -2,19 +2,20 @@
     background-color: #29416F;
     color: white;
     width: 100%;
-    border-radius: 10px;
-    border-color: #5EBE80;
+    border-radius: 8px;
+
     font-family: 'Outfit', sans-serif;
-    font-weight: 500;
-   
+    font-weight: 300;
+
 }
-.nav-item 
-{
-    margin: 0px 10px !important;
+
+.nav-item {
+    margin: 0px 15px !important;
 }
+
 .d-flex button:hover {
     background-color: #5EBE80;
-    color: white;
+
 }
 
 .navbar-nav {
@@ -22,18 +23,18 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-  
+
     overflow: hidden;
     font-family: 'Outfit', sans-serif;
     font-weight: 650;
 }
 
 .navbar-brand img {
-position: relative;
-left: 150px;
+    position: relative;
+    left: 150px;
 
 }
-.d-flex 
-{
+
+.d-flex {
     width: 10% !important;
 }
