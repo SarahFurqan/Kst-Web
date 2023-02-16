@@ -24,6 +24,5 @@ export class ButtonComponent {
 	constructor() {}
 
 	onClick() {
-		console.warn(this);
 	}
 }

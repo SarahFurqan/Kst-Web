@@ -13,12 +13,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './Components/login/login.component';
 import { GenericInputComponent } from './Components/commonComponents/generic-input/generic-input.component';
 import { PasswordInputComponent } from './Components/commonComponents/password-input/password-input.component';
-
 import { SignUpPageComponent } from './Components/sign-up-page/sign-up-page.component';
 import { LogInPageComponent } from './Components/log-in-page/log-in-page.component';
-
-
-
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
@@ -35,7 +31,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     LoginComponent,
     GenericInputComponent,
     PasswordInputComponent,
-    
     SignUpPageComponent,
     LogInPageComponent
   ],
