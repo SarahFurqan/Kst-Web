@@ -266,23 +266,39 @@
 .card11{
     border: none;
     cursor: pointer;
-    padding: 25px;
-    width:20rem;
+    /* padding: 25px;
+    width:20rem; */
+    margin-left: 0px;
 }
 .card12{
     border: none;
     cursor: pointer;
-    padding: 25px;
-    width:20rem;
+    /* padding: 25px;
+    width:20rem; */
 }
 .card13{
     border: none;
     cursor: pointer;
-    padding: 25px;
-    width:20rem;
+    /* padding: 25px;
+    width:20rem; */
 }
 .card-footer{
     border: none;
+    background: none;
+
+}
+.author{
+   margin-right: 120px;
+}
+.star{
+    /* margin-left: 40px; */
+    color: #29416F;
+    font-family: outfit;
+}
+.designate{
+    /* margin-left: 110px; */
+    color: #29416F;
+    font-family: outfit;
 }
 
 @media (max-width: 575.98px) {
