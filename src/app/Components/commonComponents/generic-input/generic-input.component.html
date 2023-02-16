@@ -2,12 +2,11 @@
     <label class="mr-auto">{{label}}
         <span class="required" *ngIf="isRequired">*</span>
     </label>
+    <br>
     <input 
         [class.invalid]="control.invalid && control.dirty && control.touched" 
         [formControl]="control" 
         [type]="type" #input
-        (input)="onChange($event.target)"
-        (blur)="onTouched()"
         [id]="inputId" 
         [disabled]="disabled"
         [placeholder]="placeholder"

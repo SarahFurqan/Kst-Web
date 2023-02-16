@@ -14,11 +14,9 @@ export class RegisterComponent {
     lastName: new FormControl('',[Validators.required]),
     email: new FormControl('',[Validators.required, Validators.email]),
   })
-  target: any;
+  
   clickHandler(value: string){
-    this.target.value=this.formgroup.value.firstName,
-    this.target.value=this.formgroup.value.lastName,
-    this.target.value=this.formgroup.value.email;
+   console.log(this.formgroup.value);
   }
   
 

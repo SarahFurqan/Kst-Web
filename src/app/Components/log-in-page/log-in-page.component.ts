@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-log-in-page',
@@ -6,9 +7,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./log-in-page.component.css']
 })
 export class LogInPageComponent {
-
-  powers = ['Really Smart', 'Super Flexible', 'Weather Changer'];
-
-  hero = {name: 'Dr.', alterEgo: 'Dr. What', power: this.powers[0]};
+  profileForm = this.fb.group({
+    email: ['', Validators.required],
+    password: ['',Validators.required],
+    
+  });
+  formgroup = new FormGroup({
+    email: new FormControl('',[Validators.required, Validators.email]),
+    password: new FormControl('',[Validators.required]),
+  })
+  constructor(private fb: FormBuilder) { }
+  onSubmit() {
+    console.warn(this.profileForm.value);
+  }
 
 }

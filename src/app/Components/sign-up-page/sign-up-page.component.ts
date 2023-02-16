@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-sign-up-page',
@@ -6,11 +7,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./sign-up-page.component.css']
 })
 export class SignUpPageComponent {
+  @Output() newItemEvent = new EventEmitter<string>();
 
-  powers = ['Really Smart', 'Super Flexible', 'Weather Changer'];
-
-  signUp = {name: 'Dr.', alterEgo: 'Dr. What', power: this.powers[0]};
-  clickHandler(){
-    
+  formgroup = new FormGroup({
+    firstName: new FormControl('',[Validators.required]),
+    lastName: new FormControl('',[Validators.required]),
+    email: new FormControl('',[Validators.required, Validators.email]),
+    password: new FormControl('',[Validators.required]),
+    confirmPassword: new FormControl('',[Validators.required]),
+  })
+  constructor(){
+    this.formgroup.valueChanges.subscribe((val)=> console.log(this.formgroup))
   }
+  // clickHandler(){
+  //  console.log(this.formgroup.value);
+  // }
+  
+
 }
