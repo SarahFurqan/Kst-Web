@@ -16,6 +16,9 @@ import { PasswordInputComponent } from './Components/commonComponents/password-i
 import { SignUpPageComponent } from './Components/sign-up-page/sign-up-page.component';
 import { LogInPageComponent } from './Components/log-in-page/log-in-page.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RatingModule } from 'ngx-bootstrap/rating';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -40,7 +43,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AppRoutingModule,
     ReactiveFormsModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FormsModule,
+    FontAwesomeModule,
+    RatingModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
