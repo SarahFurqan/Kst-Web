@@ -6,24 +6,26 @@
     </div>
     <div class="row">
         <div class="col">
-            <label for="firstname" class="form-label">First name</label>
-            <input type="text" class="form-control" id="firstname">
+            
+            <app-generic-input [control]="formgroup.controls.firstName" inputId="firstName" label="First Name" ></app-generic-input>
         </div>
         <div class="col">
-            <label for="lastname" class="form-label">Last Name</label>
-            <input type="text" class="form-control" id="lastname" >
+            
+            <app-generic-input [control]="formgroup.controls.lastName" inputId="lastName" label="Last Name" ></app-generic-input>
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <label for="email" class="form-label">Email</label>
+            
             <div class="input-group">
               <span class="input-group-text" id="inputGroupPrepend2">@</span>
-              <input type="email" class="form-control" id="email"  aria-describedby="inputGroupPrepend2" required>
+              <app-generic-input [control]="formgroup.controls.email" inputId="email" label="E-mail"  placeholder="Enter Emial"></app-generic-input>
+
             </div>
         </div>
     </div>
-    <div class="row">
+    
+    <!-- <div class="row">
         <div class="col">
             <label for="password" class="form-label">Password</label>
             <input type="password" class="form-control" id="password" aria-describedby="inputPasssword" required>
@@ -32,8 +34,9 @@
             <label for="c_password" class="form-label">Confirm Password</label>
             <input type="password" class="form-control" id="c_password" aria-describedby="inputPasssword" required>
         </div>
-    </div>
+    </div> -->
     <div class="row text-center">
-        <app-button type="submit"  text="Register" [btnClass]="'btn-primary'" (btnClick)="value()"></app-button>
+        
+        <mt-button (btnClick)="clickHandler($event)" type="submit" btnClass="btn-primary" text="CLICK ME" [isDisabled]="false"></mt-button>
     </div>
 </form>
