@@ -1,40 +1,38 @@
 .d-flex button {
     background-color: #29416F;
     color: white;
-    width: 100%;
+    width: 150px;
+    top: 26px;
     border-radius: 8px;
-
+    padding: 10px 10px 10px 10px;
+    font-weight: 600;
     font-family: 'Outfit', sans-serif;
-    font-weight: 300;
-
+    text-transform: capitalize; 
 }
-
-.nav-item {
-    margin: 0px 15px !important;
-}
-
 .d-flex button:hover {
     background-color: #5EBE80;
-
+    color: white;
 }
-
+.nav-item{
+    margin: 5px !important;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #5EBE80;
+}
 .navbar-nav {
     display: flex;
-    justify-content: center;
+    justify-content:end;
     align-items: center;
     width: 100%;
-
     overflow: hidden;
     font-family: 'Outfit', sans-serif;
-    font-weight: 650;
+    font-weight: 500;
 }
-
 .navbar-brand img {
     position: relative;
+    height: 79px;
+    width: 98px;
     left: 150px;
-
-}
-
-.d-flex {
-    width: 10% !important;
+    top: 11px;
+    border-radius: 0px;
 }
