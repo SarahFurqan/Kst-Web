@@ -24,7 +24,7 @@ import { PortfolioComponent } from './Components/Pages/portfolio/portfolio.compo
 import { JobsComponent } from './Components/Pages/jobs/jobs.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RatingModule } from 'ngx-bootstrap/rating';
-import { FormsModule } from '@angular/forms';
+
 
 
 @NgModule({
