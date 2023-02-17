@@ -24,6 +24,11 @@ import { PortfolioComponent } from './Components/Pages/portfolio/portfolio.compo
 import { JobsComponent } from './Components/Pages/jobs/jobs.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RatingModule } from 'ngx-bootstrap/rating';
+import { LandingPageComponent } from './Components/Pages/home/landing-page/landing-page.component';
+import { BrandsComponent } from './Components/Pages/home/brands/brands.component';
+import { FeatureWorkComponent } from './Components/Pages/home/feature-work/feature-work.component';
+import { ServicesComponent } from './Components/Pages/home/services/services.component';
+import { AboutComponent } from './Components/Pages/home/about/about.component';
 
 
 
@@ -47,7 +52,12 @@ import { RatingModule } from 'ngx-bootstrap/rating';
     OurServicesComponent,
     BlogNewsComponent,
     PortfolioComponent,
-    JobsComponent
+    JobsComponent,
+    LandingPageComponent,
+    BrandsComponent,
+    FeatureWorkComponent,
+    ServicesComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
