@@ -22,7 +22,9 @@ import { OurServicesComponent } from './Components/Pages/our-services/our-servic
 import { BlogNewsComponent } from './Components/Pages/blog-news/blog-news.component';
 import { PortfolioComponent } from './Components/Pages/portfolio/portfolio.component';
 import { JobsComponent } from './Components/Pages/jobs/jobs.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RatingModule } from 'ngx-bootstrap/rating';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -53,7 +55,10 @@ import { JobsComponent } from './Components/Pages/jobs/jobs.component';
     AppRoutingModule,
     ReactiveFormsModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FormsModule,
+    FontAwesomeModule,
+    RatingModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
