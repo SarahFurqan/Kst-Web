@@ -1,0 +1,112 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../../assets/AboutUs-images/HeaderImage.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.banner h1 {
+    font-weight: 900;
+    font-family: 'Outfit', sans-serif;
+}
+
+.banner h6 {
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.app_button {
+    display: flex;
+    justify-content: center;
+}
+
+.b1 {
+    background-color: #29416F;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Outfit', sans-serif;
+    width: 13%;
+}
+
+.b1:hover {
+    background-color: #5EBE80;
+}
+
+.b2 {
+    background-color: rgb(219, 217, 217);
+    color: black;
+    border-radius: 8px;
+    font-family: 'Outfit', sans-serif;
+    padding: 10px;
+    width: 13%;
+    margin-left: 15px;
+    border: none !important;
+
+}
+
+.b2:hover {
+    background-color: #5EBE80;
+    color: #F2F2F2;
+
+}
+
+.about1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 46px;
+    margin-top: 30px;
+}
+
+.about2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+
+/* Accordians */
+.accordion-button::after {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.15px;
+    transform: scale(.7) !important;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+
+.accordion-body {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+
+.accordion-item {
+    border: none;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.15px;
+}
