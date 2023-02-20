@@ -26,7 +26,7 @@
 }
 
 .b1 {
-    background-color: #29416F;
+    background-color: var(--secondary-color);
     color: white;
     border-radius: 8px;
     border: none;
@@ -35,7 +35,7 @@
 }
 
 .b1:hover {
-    background-color: #5EBE80;
+    background-color: var(--primary-color);
 }
 
 .b2 {

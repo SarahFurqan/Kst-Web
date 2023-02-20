@@ -1,23 +1,10 @@
-.d-flex button {
-    background-color: #29416F;
-    color: white;
-    width: 150px;
-    top: 26px;
-    border-radius: 8px;
-    padding: 10px 10px 10px 10px;
-    font-weight: 600;
-    font-family: 'Outfit', sans-serif;
-    text-transform: capitalize; 
-}
-.d-flex button:hover {
-    background-color: #5EBE80;
-    color: white;
-}
-.nav-item{
-    margin: 5px !important;
-}
-.navbar-light .navbar-nav .nav-link.active{
-    color: #5EBE80;
+.navbar-brand img {
+    position: relative;
+    height: 79px;
+    width: 98px;
+    left: 150px;
+    top: 11px;
+    border-radius: 0px;
 }
 .navbar-nav {
     display: flex;
@@ -28,11 +15,25 @@
     font-family: 'Outfit', sans-serif;
     font-weight: 500;
 }
-.navbar-brand img {
-    position: relative;
-    height: 79px;
-    width: 98px;
-    left: 150px;
-    top: 11px;
-    border-radius: 0px;
+.nav-item{
+    margin: 5px !important;
+}
+.nav-link.active.active-link{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.d-flex button {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    width: 150px;
+    top: 26px;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+    text-transform: capitalize; 
+}
+.d-flex button:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color);
 }

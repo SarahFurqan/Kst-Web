@@ -1,0 +1,15 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primary-color:#5EBE80;
+    --secondary-color: #29416F;
+    --text-color: white;
+    --black-color: black;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url('../src/assets/Outfit-Font/Outfit-VariableFont_wght.ttf');
+  }
