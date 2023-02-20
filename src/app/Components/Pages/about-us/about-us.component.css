@@ -110,3 +110,46 @@
     line-height: 25px;
     letter-spacing: 0.15px;
 }
+
+.happy {
+    background-color: #29416F;
+    height: 299px;
+}
+
+.happytext {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 76px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+
+}
+
+.happy01 {
+    margin-top: 70px;
+    padding-top: 69px;
+}
+
+.happytext2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+
+}
+
+.expert {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+
+}
