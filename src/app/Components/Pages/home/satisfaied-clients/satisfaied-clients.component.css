@@ -1,0 +1,27 @@
+
+.box7{
+    background-color: #F2F2F2;
+    border: none;
+}
+.box8{
+    background-color: #F2F2F2;
+    border: none;
+}
+.box9{
+    background-color: #F2F2F2;
+    border: none;
+}
+
+.author{
+   margin-right: 120px;
+}
+.star{
+    /* margin-left: 40px; */
+    color: #29416F;
+    font-family: outfit;
+}
+.designate{
+    /* margin-left: 110px; */
+    color: #29416F;
+    font-family: outfit;
+}

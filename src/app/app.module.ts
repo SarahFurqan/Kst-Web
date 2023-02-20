@@ -29,6 +29,8 @@ import { BrandsComponent } from './Components/Pages/home/brands/brands.component
 import { FeatureWorkComponent } from './Components/Pages/home/feature-work/feature-work.component';
 import { ServicesComponent } from './Components/Pages/home/services/services.component';
 import { AboutComponent } from './Components/Pages/home/about/about.component';
+import { BlogComponent } from './Components/Pages/home/blog/blog.component';
+import { SatisfaiedClientsComponent } from './Components/Pages/home/satisfaied-clients/satisfaied-clients.component';
 
 
 
@@ -57,7 +59,9 @@ import { AboutComponent } from './Components/Pages/home/about/about.component';
     BrandsComponent,
     FeatureWorkComponent,
     ServicesComponent,
-    AboutComponent
+    AboutComponent,
+    BlogComponent,
+    SatisfaiedClientsComponent
   ],
   imports: [
     BrowserModule,
