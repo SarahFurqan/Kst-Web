@@ -1,0 +1,24 @@
+.container-fluid {
+    background-color: #5EBE80;
+    padding: 100px;
+    border-radius: 0px;
+}
+
+.heading .h5 {
+    margin-top: 170px;
+    width: 118px;
+}
+
+.name {
+    color: white;
+    font-weight: 600;
+    font-size: 44px;
+    font-family: Outfit;
+    line-height: 46px;
+
+}
+
+.text {
+    color: white !important;
+    text-align: justify;
+}

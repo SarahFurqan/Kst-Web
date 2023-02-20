@@ -1,0 +1,59 @@
+.card11{
+    border: none;
+    cursor: pointer;
+    /* padding: 25px;
+    width:20rem; */
+    margin-left: 0px;
+}
+.card12{
+    border: none;
+    cursor: pointer;
+    /* padding: 25px;
+    width:20rem; */
+}
+.card13{
+    border: none;
+    cursor: pointer;
+    /* padding: 25px;
+    width:20rem; */
+}
+.text-muted{
+    text-align: end;
+}
+.card-footer {
+    font-family: outfit;
+}
+
+.h2 {
+    font-family: outfit;
+}
+
+.p {
+    font-family: outfit;
+}
+
+.card-text {
+    font-family: outfit;
+}
+
+.card-body {
+    margin: 8px;
+}
+
+.card img {
+    border-radius: none !important;
+    border: none !important;
+}
+
+.card-img-top {
+    border-radius: 0px !important;
+    border: 0px;
+    overflow: hidden;
+}
+
+
+.card-footer{
+    border: none;
+    background: none;
+
+}

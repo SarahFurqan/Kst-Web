@@ -16,7 +16,7 @@ export class ButtonComponent {
 		return this.buttonText;
 	}
 
-	@Input() btnClass: string = 'btn-success';
+	@Input() btnClass: string = '';
 	@Input() type: string = 'button';
 	@Output() btnClick = new EventEmitter();
 	@Input() isDisabled = false;

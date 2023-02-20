@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 
 
@@ -8,7 +8,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  max = 5;
-  rate = 2;
-  isReadonly = false;
+  
 }

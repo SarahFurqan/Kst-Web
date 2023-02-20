@@ -1,0 +1,40 @@
+
+.featured{
+    padding: 20px;
+    margin-top: 70px!important;
+}
+
+.dev-btn button {
+    background-color: #29416F;
+    color: #F2F2F2;
+    font-family: Outfit;
+    border-radius:8px;
+    padding: 15px 20px;
+}
+.dev-btn button:hover{
+    background-color: #5EBE80;
+}
+
+.ui-btn button {
+    font-family: Outfit;
+    background-color: white;
+    color: #29416F;
+    border-radius:8px;
+    padding: 15px 20px;
+}
+.ui-btn button:hover{
+    background-color: #5EBE80;
+    color: #F2F2F2;
+}
+
+.seo-btn button {
+    font-family: Outfit;
+    background-color: white;
+    color: #29416F;
+    border-radius:8px;
+    padding: 15px 20px;
+}
+.seo-btn button:hover{
+    background-color: #5EBE80;
+    color: #F2F2F2;
+}

@@ -1,14 +1,6 @@
 .btn {
-	border-radius: 5px;
-	font-weight: 400;
-	width: 25%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-	height: 45px;
-	font-size: 16px;
-	font-family: 'Roboto';
-	border: 0px;
+	color: white;
 }
 .btn:hover {
-    background-color: rgb(21, 164, 207);
+    color: black;
 }
