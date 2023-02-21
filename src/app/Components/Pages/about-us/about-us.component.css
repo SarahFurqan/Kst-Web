@@ -56,6 +56,9 @@
 
 }
 
+/* banner css end*/
+
+/* about us css start*/
 .about1 {
     font-family: 'Outfit';
     font-style: normal;
@@ -111,6 +114,7 @@
     letter-spacing: 0.15px;
 }
 
+/* Accordians css end*/
 .happy {
     background-color: #29416F;
     height: 299px;
@@ -143,6 +147,7 @@
 
 }
 
+/* meet expert css start*/
 .expert {
     font-family: 'Outfit';
     font-style: normal;
@@ -164,4 +169,34 @@
     letter-spacing: 0.5px;
     color: #000000;
 
+}
+
+/* meet expert css end*/
+
+/* image css start*/
+
+.update {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #5EBE80;
+    margin-top: 50px;
+}
+
+.emailbox {
+    width: 45%;
+    margin-left: 100px;
+    border-color: #000000;
+}
+
+.button12 {
+    background: #29416F;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: outfit;
+    
 }
