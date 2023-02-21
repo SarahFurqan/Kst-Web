@@ -1,0 +1,12 @@
+.button {
+    font-family: outfit;
+    background: var(--secondary-color);
+    border-radius: 8px;
+    color: white;
+}
+.abcd input{
+    border-right: none;
+}
+.jobs{
+    border: 1px solid red;
+}
