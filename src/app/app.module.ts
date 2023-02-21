@@ -31,6 +31,11 @@ import { ServicesComponent } from './Components/Pages/home/services/services.com
 import { AboutComponent } from './Components/Pages/home/about/about.component';
 import { BlogComponent } from './Components/Pages/home/blog/blog.component';
 import { SatisfaiedClientsComponent } from './Components/Pages/home/satisfaied-clients/satisfaied-clients.component';
+import { FindJobsComponent } from './Components/Pages/jobs/find-jobs/find-jobs.component';
+import { JobsGridComponent } from './Components/Pages/jobs/jobs-grid/jobs-grid.component';
+import { MeetExpertComponent } from './Components/Pages/about-us/meet-expert/meet-expert.component';
+import { CounterComponent } from './Components/Pages/about-us/counter/counter.component';
+import { ErrorPageComponent } from './Components/Pages/error-page/error-page.component';
 
 
 
@@ -61,7 +66,12 @@ import { SatisfaiedClientsComponent } from './Components/Pages/home/satisfaied-c
     ServicesComponent,
     AboutComponent,
     BlogComponent,
-    SatisfaiedClientsComponent
+    SatisfaiedClientsComponent,
+    FindJobsComponent,
+    JobsGridComponent,
+    MeetExpertComponent,
+    CounterComponent,
+    ErrorPageComponent
   ],
   imports: [
     BrowserModule,
