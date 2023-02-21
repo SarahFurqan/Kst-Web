@@ -1,0 +1,41 @@
+.continer-fluid{
+    margin-bottom: 50px;
+    width: auto;
+    padding-bottom: 50px;
+}
+.row.mt-4 .col{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: var(--primary-color);
+    margin-top: 50px;
+}
+.row .col{
+    height: 46px;
+    width: 496px;
+    font-weight: 600;
+    line-height: 46px;
+    font-size: 44px;
+    text-align: center;
+}
+.input-group  {
+    width: 45%;
+    margin-left: 100px;
+    border-color: #000000;
+    
+}
+
+.btn-primary{
+    background: var(--secondary-color);
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: outfit;
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-color);
+}
