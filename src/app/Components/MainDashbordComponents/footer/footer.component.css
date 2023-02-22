@@ -11,16 +11,16 @@ footer {
 
 .data1 {
     font-family: outfit;
-    color: #29416F;
+    color: var(--secondary-color);
 }
 
 .data1:hover {
-    color: #5EBE80 !important;
+    color: var(--primary-color) !important;
     cursor: pointer;
 }
 
 .ftr {
-    background-color: #29416F;
+    background-color: var(--secondary-color);
     padding: 0px !important;
     margin: 0px !important;
     overflow: hidden;
@@ -38,24 +38,24 @@ footer {
 }
 
 .btn1:hover {
-    color: #5EBE80 !important;
+    color: var(--primary-color) !important;
     cursor: pointer;
 }
 
 .btn2:hover {
-    color: #5EBE80 !important;
+    color: var(--primary-color) !important;
     cursor: pointer;
 }
 
 .btn3:hover {
-    color: #5EBE80 !important;
+    color: var(--primary-color) !important;
     cursor: pointer;
 }
 
 
 
 .btn1 {
-    color: #29416F;
+    color: var(--secondary-color);
     padding: 10px;
     margin: 1px;
 }
@@ -69,6 +69,6 @@ footer {
 }
 
 .iconss {
-    color: #29416F;
+    color: var(--secondary-color);
 
 }

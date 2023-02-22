@@ -1,40 +1,210 @@
-
-.featured{
+.featured {
     padding: 20px;
-    margin-top: 70px!important;
+    margin-top: 70px !important;
+}
+
+.title {
+    color: var(--black-color);
+    font-weight: 700;
+    font-size: 44px;
+    font-family: Outfit;
+    text-decoration: none;
 }
 
 .dev-btn button {
-    background-color: #29416F;
-    color: #F2F2F2;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
     font-family: Outfit;
-    border-radius:8px;
+    border-radius: 8px;
     padding: 15px 20px;
+
 }
-.dev-btn button:hover{
-    background-color: #5EBE80;
+
+.dev-btn button:hover {
+    background-color: var(--primary-color);
 }
 
 .ui-btn button {
     font-family: Outfit;
     background-color: white;
-    color: #29416F;
-    border-radius:8px;
+    color: var(--secondary-color);
+    border-radius: 8px;
     padding: 15px 20px;
 }
-.ui-btn button:hover{
-    background-color: #5EBE80;
-    color: #F2F2F2;
+
+.ui-btn button:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .seo-btn button {
     font-family: Outfit;
     background-color: white;
-    color: #29416F;
-    border-radius:8px;
+    color: var(--secondary-color);
+    border-radius: 8px;
     padding: 15px 20px;
 }
-.seo-btn button:hover{
-    background-color: #5EBE80;
-    color: #F2F2F2;
+
+.seo-btn button:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.text {
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-align: left;
+
+}
+
+.text2 {
+    color: var(--secondary-color);
+    font-weight: 550;
+    font-family: 'Outfit';
+    font-size: 14px;
+    text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+    .featured {
+        padding: 10px;
+    }
+
+    .title {
+        color: var(--black-color);
+        font-weight: 600;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .dev-btn button {
+        padding: 10px 5px;
+        font-size: 12px;
+        
+    }
+
+    .ui-btn button {
+        padding: 10px 5px;
+        font-size: 12px;
+        width: 100px;
+    }
+
+    .seo-btn button {
+        padding: 10px 5px;
+        font-size: 12px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .featured {
+        padding: 10px;
+        margin-top: 50px !important;
+    }
+
+    .title {
+        color: var(--black-color);
+        font-weight: 600;
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .dev-btn button {
+        padding: 10px 5px;
+        font-size: 14px;
+        width: 100px;
+    }
+
+    .ui-btn button {
+        padding: 10px 5px;
+        font-size: 14px;
+        width: 100px;
+    }
+
+    .seo-btn button {
+        padding: 10px 5px;
+        font-size: 14px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .featured {
+        padding: 10px;
+        margin-top: 50px !important;
+    }
+
+    .title {
+        color: var(--black-color);
+        font-weight: 600;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .dev-btn button {
+        font-size: 14px;
+        padding: 10px 5px;
+    }
+
+    .ui-btn button {
+        font-size: 14px;
+        padding: 10px 5px;
+        width: 100px;
+    }
+
+    .seo-btn button {
+        font-size: 14px;
+        padding: 10px 5px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .featured {
+        padding: 10px;
+        margin-top: 50px !important;
+    }
+
+    .title {
+        color: var(--black-color);
+        font-weight: 600;
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+    .text {
+
+        font-size: 16px;
+    }
+
+    .dev-btn button {
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+
+    .ui-btn button {
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+
+    .seo-btn button {
+        font-size: 14px;
+        padding: 10px 5px;
+        width: 100px;
+    }
 }
