@@ -17,11 +17,11 @@
     font-family: 'Outfit';
 
 }
-.landingPageBtn {
+.row.mt-4{
     display: flex;
     justify-content: center;
 }
-.Btn1 {
+.btn-primary {
     background-color: var(--secondary-color);
     color: var(--text-color);
     border-radius: 8px;
@@ -29,10 +29,10 @@
     font-family: 'Outfit';
     width: 13%;
 }
-.Btn1:hover {
+.btn-primary:hover {
     background-color: var(--primary-color);
 }
-.Btn2 {
+.btn-secondary {
     background-color: rgb(219, 217, 217);
     color: black;
     border-radius: 8px;
@@ -43,7 +43,7 @@
     border: none !important;
 
 }
-.Btn2:hover {
+.btn-secondary:hover {
     background-color: var(--primary-color);
     color: #F2F2F2;
 
@@ -67,29 +67,17 @@
         font-size: 13px;
     }
 
-    .Btn1 {
+    .btn-primary {
         width: 20%;
         margin: 0px !important;
         font-size: 12px;
     }
 
-    .Btn2 {
+    .btn-secondary {
         width: 20%;
         margin: 0px !important;
         font-size: 12px;
         margin-left: 5px !important;
-    }
-
-    .icon4 {
-        margin-top: 20px;
-    }
-
-    .icon5 {
-        margin-top: 20px;
-    }
-
-    .icon6 {
-        margin-top: 20px;
     }
 }
 
@@ -101,13 +89,13 @@
 
     }
 
-    .Btn1 {
+    .btn-primary {
         width: 20%;
         margin: 0px !important;
         font-size: 12px;
     }
 
-    .Btn2 {
+    .btn-secondary {
         width: 20%;
         margin: 0px !important;
         font-size: 12px;
@@ -123,13 +111,13 @@
 
     }
 
-    .Btn1 {
+    .btn-primary {
         width: 20%;
         margin: 0px !important;
         font-size: 12px;
     }
 
-    .Btn2 {
+    .btn-secondary {
         width: 20%;
         margin: 0px !important;
         font-size: 12px;

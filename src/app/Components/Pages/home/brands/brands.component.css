@@ -1,32 +1,32 @@
-.clients {
+.container-fluid{
     background-color: var(--secondary-color);
     padding: 35px;
     overflow: hidden;
 }
 
 @media (max-width: 575.98px) {
-    .clients {
+    .container-fluid {
         padding: 15px;
         overflow: hidden;
     }
 }
 
 @media (max-width: 767.98px) {
-    .clients {
+    .container-fluid {
         padding: 20px;
         overflow: hidden;
     }
 }
 
 @media (max-width: 991.98px) {
-    .clients {
+    .container-fluid {
         padding: 25px;
         overflow: hidden;
     }
 }
 
 @media (max-width: 1200px) {
-    .clients {
+    .container-fluid {
         padding: 30px;
         overflow: hidden;
     }
