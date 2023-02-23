@@ -1,0 +1,50 @@
+.h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 46px;
+    color: #000000;
+}
+
+.btn-primary{
+    background: var(--secondary-color);
+    border-radius: 8px;
+    border: none;
+
+}
+
+.card{
+    font-family: 'Outfit';
+    border-radius: 8px;
+}
+
+.card:hover{
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.card-body:hover .card-subtitle {
+    color: #5EBE80;
+}
+
+.card-body:hover .btn-primary{
+    background-color: #5EBE80;
+}
+
+.h6 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+}
+/* Load More Button  */
+.btn-secondary {
+    background: var(--secondary-color);
+    border-radius: 8px;
+    margin-left: 48px;
+}

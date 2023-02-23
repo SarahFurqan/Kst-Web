@@ -1,0 +1,30 @@
+.button {
+    font-family: outfit;
+    background: var(--secondary-color);
+    border-radius: 8px;
+    color: white;
+}
+
+.form-control {
+    border-left: none;
+    border-right: none;
+}
+
+.input-group-text {
+    background-color: white;
+    font-family: outfit;
+    color: #000000;
+}
+
+/* @media only screen and (min-width:200px) and (max-width:475px) {
+
+    .input-group{
+        width: 10%;
+        display: inline-block;
+    }
+} */
+
+/* @media only screen and (min-width:200px) and (max-width:475px){
+
+} */
+

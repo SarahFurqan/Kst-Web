@@ -37,6 +37,8 @@ import { ErrorPageComponent } from './Components/Pages/error-page/error-page.com
 import { NewsLetterComponent } from './Components/GenericComponents/news-letter/news-letter.component';
 import { AboutLandingPageComponent } from './Components/Pages/about-us/about-landing-page/about-landing-page.component';
 import { AboutPageInfoComponent } from './Components/Pages/about-us/about-page-info/about-page-info.component';
+import { PortfolioLandingPageComponent } from './Components/Pages/portfolio/portfolio-landing-page/portfolio-landing-page.component';
+import { OurPortfolioComponent } from './Components/Pages/portfolio/our-portfolio/our-portfolio.component';
 
 
 
@@ -74,7 +76,9 @@ import { AboutPageInfoComponent } from './Components/Pages/about-us/about-page-i
     ErrorPageComponent,
     NewsLetterComponent,
     AboutLandingPageComponent,
-    AboutPageInfoComponent
+    AboutPageInfoComponent,
+    PortfolioLandingPageComponent,
+    OurPortfolioComponent
   ],
   imports: [
     BrowserModule,
