@@ -28,22 +28,3 @@
 
 } */
 
-.portfolio {
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 44px;
-    line-height: 46px;
-    color: #000000;
-    text-align: center;
-}
-
-.btn {
-
-    margin-right: 50px;
-}
-
-.btn1 {
-    margin-right: 50px;
-    margin-left: 320px !important;
-}

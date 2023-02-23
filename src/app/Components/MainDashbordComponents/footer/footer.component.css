@@ -5,29 +5,43 @@ footer {
     background-image: url(../../../../assets/Footer-images/FooterImage.jpg);
 }
 
-.text {
-    font-family: outfit;
-}
-
-.data1 {
-    font-family: outfit;
+.icon {
+    text-decoration: none;
     color: var(--secondary-color);
 }
 
-.data1:hover {
+.icon:hover {
+    text-transform: uppercase;
+}
+
+.menu-items {
+    color: var(--primary-color);
+}
+
+.socialIcon:hover {
     color: var(--primary-color) !important;
+    transition: transform .2s;
+    height: 35px;
+    width: 35px;
     cursor: pointer;
 }
 
-.ftr {
+.socialIcon {
+    color: var(--secondary-color);
+    padding: 10px;
+    margin: 1px;
+    height: 25px;
+    width: 25px;
+}
+
+.container-fluid.p-0 {
     background-color: var(--secondary-color);
     padding: 0px !important;
     margin: 0px !important;
     overflow: hidden;
-
 }
 
-.end {
+.container-fluid .container {
     color: aliceblue;
     font-family: outfit;
     display: flex;
@@ -35,40 +49,4 @@ footer {
     align-items: center !important;
     padding: 0px !important;
     margin-top: 13px;
-}
-
-.btn1:hover {
-    color: var(--primary-color) !important;
-    cursor: pointer;
-}
-
-.btn2:hover {
-    color: var(--primary-color) !important;
-    cursor: pointer;
-}
-
-.btn3:hover {
-    color: var(--primary-color) !important;
-    cursor: pointer;
-}
-
-
-
-.btn1 {
-    color: var(--secondary-color);
-    padding: 10px;
-    margin: 1px;
-}
-
-.btn2 {
-    padding: 10px;
-}
-
-.btn3 {
-    padding: 10px;
-}
-
-.iconss {
-    color: var(--secondary-color);
-
 }

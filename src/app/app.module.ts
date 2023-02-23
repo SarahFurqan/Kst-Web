@@ -5,14 +5,12 @@ import { AppComponent } from './app.component';
 import { RegisterComponent } from './Components/AuthForms/register/register.component';
 import { DashboardComponent } from './Components/MainDashbordComponents/Dashboard/dashboard.component';
 import { ButtonComponent } from './Components/GenericComponents/button/button.component';
-import { InputComponent } from './Components/GenericComponents/input/input.component';
 import { HeaderComponent } from './Components/MainDashbordComponents/header/header.component';
 import { FooterComponent } from './Components/MainDashbordComponents/footer/footer.component';
 import { HomeComponent } from './Components/Pages/home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './Components/AuthForms/login/login.component';
 import { GenericInputComponent } from './Components/GenericComponents/generic-input/generic-input.component';
-import { PasswordInputComponent } from './Components/GenericComponents/password-input/password-input.component';
 import { SignUpPageComponent } from './Components/AuthForms/sign-up-page/sign-up-page.component';
 import { LogInPageComponent } from './Components/AuthForms/log-in-page/log-in-page.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -36,6 +34,15 @@ import { JobsGridComponent } from './Components/Pages/jobs/jobs-grid/jobs-grid.c
 import { MeetExpertComponent } from './Components/Pages/about-us/meet-expert/meet-expert.component';
 import { CounterComponent } from './Components/Pages/about-us/counter/counter.component';
 import { ErrorPageComponent } from './Components/Pages/error-page/error-page.component';
+import { NewsLetterComponent } from './Components/GenericComponents/news-letter/news-letter.component';
+import { AboutLandingPageComponent } from './Components/Pages/about-us/about-landing-page/about-landing-page.component';
+import { AboutPageInfoComponent } from './Components/Pages/about-us/about-page-info/about-page-info.component';
+import { PortfolioLandingPageComponent } from './Components/Pages/portfolio/portfolio-landing-page/portfolio-landing-page.component';
+import { OurPortfolioComponent } from './Components/Pages/portfolio/our-portfolio/our-portfolio.component';
+import { ImageGridComponent } from './Components/GenericComponents/image-grid/image-grid.component';
+import { ServicesLandingPageComponent } from './Components/Pages/our-services/services-landing-page/services-landing-page.component';
+import { BlogLandingPageComponent } from './Components/Pages/blog-news/blog-landing-page/blog-landing-page.component';
+
 
 
 
@@ -45,13 +52,11 @@ import { ErrorPageComponent } from './Components/Pages/error-page/error-page.com
     RegisterComponent,
     DashboardComponent,
     ButtonComponent,
-    InputComponent,
     HeaderComponent,
     FooterComponent,
     HomeComponent,
     LoginComponent,
     GenericInputComponent,
-    PasswordInputComponent,
     SignUpPageComponent,
     LogInPageComponent,
     AboutUsComponent,
@@ -71,7 +76,15 @@ import { ErrorPageComponent } from './Components/Pages/error-page/error-page.com
     JobsGridComponent,
     MeetExpertComponent,
     CounterComponent,
-    ErrorPageComponent
+    ErrorPageComponent,
+    NewsLetterComponent,
+    AboutLandingPageComponent,
+    AboutPageInfoComponent,
+    PortfolioLandingPageComponent,
+    OurPortfolioComponent,
+    ImageGridComponent,
+    ServicesLandingPageComponent,
+    BlogLandingPageComponent
   ],
   imports: [
     BrowserModule,
