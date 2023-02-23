@@ -1,4 +1,4 @@
-.h1{
+.h1 {
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 600;
@@ -7,19 +7,19 @@
     color: #000000;
 }
 
-.btn-primary{
+.btn-primary {
     background: var(--secondary-color);
     border-radius: 8px;
     border: none;
 
 }
 
-.card{
+.card {
     font-family: 'Outfit';
     border-radius: 8px;
 }
 
-.card:hover{
+.card:hover {
     background-color: var(--secondary-color);
     color: var(--text-color);
     transition: all 0.2s ease;
@@ -30,7 +30,7 @@
     color: #5EBE80;
 }
 
-.card-body:hover .btn-primary{
+.card-body:hover .btn-primary {
     background-color: #5EBE80;
 }
 
@@ -42,8 +42,10 @@
     line-height: 15px;
     letter-spacing: 0.4px;
 }
+
 /* Load More Button  */
 .btn-secondary {
+    font-family: 'Outfit';
     background: var(--secondary-color);
     border-radius: 8px;
     margin-left: 48px;

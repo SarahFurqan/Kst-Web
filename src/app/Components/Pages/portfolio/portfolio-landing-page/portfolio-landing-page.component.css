@@ -1,0 +1,155 @@
+.container-fluid {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../../../assets/Portfolio-images/Rectangle2.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.container-fluid h1 {
+    font-weight: 900;
+    font-family: 'Outfit';
+}
+
+.container-fluid h6 {
+    font-family: 'Outfit';
+
+}
+.card{
+    background: none;
+    border: none;
+    width: 490px;
+    height: 120px;
+
+}
+
+.row.mt-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Outfit';
+    width: 13%;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+}
+
+.btn-secondary {
+    background-color: rgb(219, 217, 217);
+    color: black;
+    border-radius: 8px;
+    font-family: 'Outfit';
+    padding: 10px;
+    width: 13%;
+    margin-left: 15px;
+    border: none !important;
+
+}
+
+.btn-secondary:hover {
+    background-color: var(--primary-color);
+    color: #F2F2F2;
+
+}
+
+@media (max-width: 575.98px) {
+    .container-fluid {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        font-size: 10px;
+    }
+
+     .h1 {
+        font-size: 9px;
+    }
+
+    .container-fluid h6 {
+        font-size: 13px;
+    }
+
+    .btn-primary {
+        width: 20%;
+        margin: 0px !important;
+        font-size: 10px;
+    }
+
+    .btn-secondary {
+        width: 20%;
+        margin: 0px !important;
+        font-size: 12px;
+        margin-left: 5px !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container-fluid {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+
+    }
+
+    .btn-primary {
+        width: 20%;
+        margin: 0px !important;
+        font-size: 12px;
+    }
+
+    .btn-secondary {
+        width: 20%;
+        margin: 0px !important;
+        font-size: 12px;
+        margin-left: 5px !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .container-fluid {
+        width: 100%;
+        height: 50vh;
+        padding: 30px;
+
+    }
+    .container-fluid h1 {
+        font-size: 32px;
+    }
+    .btn-primary {
+        width: 20%;
+        margin: 0px !important;
+        font-size: 12px;
+    }
+
+    .btn-secondary {
+        width: 20%;
+        margin: 0px !important;
+        font-size: 12px;
+        margin-left: 5px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container-fluid {
+        width: 100%;
+        height: 50vh;
+        padding: 30px;
+
+    }
+}

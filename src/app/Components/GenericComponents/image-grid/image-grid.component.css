@@ -1,0 +1,12 @@
+/* Load More Button  */
+.btn-secondary {
+    background: var(--secondary-color);
+    border-radius: 8px;
+    margin-left: 48px;
+    margin-bottom: 29px;
+}
+
+.btn-secondary:hover {
+    background-color: #5EBE80;
+    border: none;
+}

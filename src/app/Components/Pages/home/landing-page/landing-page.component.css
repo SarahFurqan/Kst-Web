@@ -1,4 +1,4 @@
-.banner {
+.container-fluid {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -9,18 +9,29 @@
     background-position: center;
     overflow: hidden;
 }
-.banner h1 {
+
+.container-fluid h1 {
     font-weight: 900;
     font-family: 'Outfit';
 }
-.banner h6 {
+
+.container-fluid h6 {
     font-family: 'Outfit';
 
 }
-.row.mt-4{
+.card{
+    background: none;
+    border: none;
+    width: 490px;
+    height: 120px;
+
+}
+
+.row.mt-4 {
     display: flex;
     justify-content: center;
 }
+
 .btn-primary {
     background-color: var(--secondary-color);
     color: var(--text-color);
@@ -29,9 +40,11 @@
     font-family: 'Outfit';
     width: 13%;
 }
+
 .btn-primary:hover {
     background-color: var(--primary-color);
 }
+
 .btn-secondary {
     background-color: rgb(219, 217, 217);
     color: black;
@@ -43,6 +56,7 @@
     border: none !important;
 
 }
+
 .btn-secondary:hover {
     background-color: var(--primary-color);
     color: #F2F2F2;
@@ -50,27 +64,31 @@
 }
 
 @media (max-width: 575.98px) {
-    .banner {
+    .container-fluid {
         width: 100%;
         height: auto;
         padding: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(../../../../../assets/HomePage-images/Rectangle4.png);
         background-size: cover;
         background-position: center;
         overflow: hidden;
+        font-size: 10px;
     }
 
-    .banner h6 {
+     .h1 {
+        font-size: 9px;
+    }
+
+    .container-fluid h6 {
         font-size: 13px;
     }
 
     .btn-primary {
         width: 20%;
         margin: 0px !important;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .btn-secondary {
@@ -82,7 +100,7 @@
 }
 
 @media (max-width: 767.98px) {
-    .banner {
+    .container-fluid {
         width: 100%;
         height: auto;
         padding: 30px;
@@ -104,13 +122,15 @@
 }
 
 @media (max-width: 991.98px) {
-    .banner {
+    .container-fluid {
         width: 100%;
         height: 50vh;
         padding: 30px;
 
     }
-
+    .container-fluid h1 {
+        font-size: 32px;
+    }
     .btn-primary {
         width: 20%;
         margin: 0px !important;
@@ -126,7 +146,7 @@
 }
 
 @media (max-width: 1200px) {
-    .banner {
+    .container-fluid {
         width: 100%;
         height: 50vh;
         padding: 30px;
