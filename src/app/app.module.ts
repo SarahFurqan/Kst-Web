@@ -42,6 +42,8 @@ import { OurPortfolioComponent } from './Components/Pages/portfolio/our-portfoli
 import { ImageGridComponent } from './Components/GenericComponents/image-grid/image-grid.component';
 import { ServicesLandingPageComponent } from './Components/Pages/our-services/services-landing-page/services-landing-page.component';
 import { BlogLandingPageComponent } from './Components/Pages/blog-news/blog-landing-page/blog-landing-page.component';
+import { ServiceClientsComponent } from './Components/Pages/our-services/service-clients/service-clients.component';
+import { AccordionsComponent } from './Components/Pages/about-us/accordions/accordions.component';
 
 
 
@@ -84,7 +86,9 @@ import { BlogLandingPageComponent } from './Components/Pages/blog-news/blog-land
     OurPortfolioComponent,
     ImageGridComponent,
     ServicesLandingPageComponent,
-    BlogLandingPageComponent
+    BlogLandingPageComponent,
+    ServiceClientsComponent,
+    AccordionsComponent
   ],
   imports: [
     BrowserModule,

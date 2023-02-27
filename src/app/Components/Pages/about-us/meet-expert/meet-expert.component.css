@@ -1,0 +1,70 @@
+.text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.secondary {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #000000;
+
+}
+
+/* For small */
+@media only screen and (min-width:100px) and (max-width: 576px) {
+
+
+    h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    h6 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+}
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h6 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 992px) {
+
+
+    h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    h6 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+}

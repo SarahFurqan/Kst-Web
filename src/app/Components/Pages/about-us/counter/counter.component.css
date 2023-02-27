@@ -1,0 +1,74 @@
+.container-fluid {
+    background-color: #29416F;
+    padding: 80px 0px;
+}
+
+.row {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 76px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+/* For small */
+@media only screen and (min-width:100px) and (max-width: 576px) {
+
+
+    h1 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .img {
+        width: 60px;
+
+    }
+}
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .img {
+        width: 70px;
+
+    }
+}
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 992px) {
+
+
+    h1 {
+        font-size: 31px;
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .img {
+        width: 80px;
+
+    }
+}
