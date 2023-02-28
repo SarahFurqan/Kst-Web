@@ -1,0 +1,54 @@
+.text {
+    margin-top: 60px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.form-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.15px;
+    color: #000000;
+}
+
+.form-group {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.form-control {
+    background-color: #EAEAEA;
+    border: none;
+}
+
+.btn-primary {
+    background: #29416F;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background: #5EBE80;
+    border: none;
+}
+.card{
+    border: none;
+}
+.card.second {
+    margin-top: 140px;
+    border-radius: 8px;
+    border: none;
+}
+.row.mt-4{
+    font-family: 'Outfit';
+    color: #000000;
+}

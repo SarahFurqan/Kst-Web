@@ -44,6 +44,9 @@ import { ServicesLandingPageComponent } from './Components/Pages/our-services/se
 import { BlogLandingPageComponent } from './Components/Pages/blog-news/blog-landing-page/blog-landing-page.component';
 import { ServiceClientsComponent } from './Components/Pages/our-services/service-clients/service-clients.component';
 import { AccordionsComponent } from './Components/Pages/about-us/accordions/accordions.component';
+import { CardsPageComponent } from './Components/Pages/blog-news/cards-page/cards-page.component';
+import { LandingPageContactUsComponent } from './Components/Pages/contact-us/landing-page-contact-us/landing-page-contact-us.component';
+import { ContactUsFormPageComponent } from './Components/Pages/contact-us/contact-us-form-page/contact-us-form-page.component';
 
 
 
@@ -88,7 +91,10 @@ import { AccordionsComponent } from './Components/Pages/about-us/accordions/acco
     ServicesLandingPageComponent,
     BlogLandingPageComponent,
     ServiceClientsComponent,
-    AccordionsComponent
+    AccordionsComponent,
+    CardsPageComponent,
+    LandingPageContactUsComponent,
+    ContactUsFormPageComponent
   ],
   imports: [
     BrowserModule,
