@@ -8,15 +8,19 @@ footer {
 .icon {
     text-decoration: none;
     color: var(--secondary-color);
-}
-
-.icon:hover {
-    text-transform: uppercase;
+    font-family: 'outfit';
 }
 
 .menu-items {
     color: var(--primary-color);
 }
+
+.col {
+    color: var(--secondary-color);
+    font-family: 'outfit';
+}
+
+/* Social Icons */
 
 .socialIcon:hover {
     color: var(--primary-color) !important;
@@ -42,11 +46,32 @@ footer {
 }
 
 .container-fluid .container {
-    color: aliceblue;
-    font-family: outfit;
+    color: white;
+    font-family: 'outfit';
     display: flex;
     justify-content: space-around;
     align-items: center !important;
     padding: 0px !important;
     margin-top: 13px;
 }
+
+/* For Mobile*/
+@media only screen and (min-width:100px) and (max-width: 500px) {
+    .icon {
+        font-size: 10px;
+    }
+
+    .menu-items {
+        font-size: 10px;
+    }
+
+    .socialIcon {
+        font-size: 10px;
+    }
+}
+
+/* For large*/
+@media only screen and (min-width:501px) and (max-width: 1000px) {}
+
+/* for x-large */
+@media only screen and (min-width:1001px) and (max-width: 2000px) {}

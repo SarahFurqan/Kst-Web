@@ -1,0 +1,30 @@
+.text-center h5 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.text-center h2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 71px;
+    color: #000000;
+}
+
+.btn-primary {
+
+    font-family: 'Outfit';
+    background: #29416F;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #5EBE80;
+    border: none;
+}

@@ -47,6 +47,7 @@ import { AccordionsComponent } from './Components/Pages/about-us/accordions/acco
 import { CardsPageComponent } from './Components/Pages/blog-news/cards-page/cards-page.component';
 import { LandingPageContactUsComponent } from './Components/Pages/contact-us/landing-page-contact-us/landing-page-contact-us.component';
 import { ContactUsFormPageComponent } from './Components/Pages/contact-us/contact-us-form-page/contact-us-form-page.component';
+import { PrivacyPolicyComponent } from './Components/Pages/privacy-policy/privacy-policy.component';
 
 
 
@@ -94,7 +95,8 @@ import { ContactUsFormPageComponent } from './Components/Pages/contact-us/contac
     AccordionsComponent,
     CardsPageComponent,
     LandingPageContactUsComponent,
-    ContactUsFormPageComponent
+    ContactUsFormPageComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,

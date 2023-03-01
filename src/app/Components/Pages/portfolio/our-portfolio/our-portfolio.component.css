@@ -17,7 +17,7 @@
 }
 
 .btn-primary:hover {
-    background-color: #5EBE80;
+    background-color: #5EBE80 !important;
     border: none;
 }
 
@@ -51,13 +51,26 @@
 
     }
 
+    .btn-primary:hover {
+        background-color: #5EBE80;
+        border: none;
+    }
+
     .btn-secondary {
         width: 80px;
         height: 40px;
         font-size: 10px;
     }
+
+    .btn-secondary:hover {
+        border: none;
+        color: #F5F5F5;
+        background-color: #5EBE80;
+    }
+
 }
 
+/* For large*/
 @media only screen and (min-width:501px) and (max-width: 1000px) {
 
     .btn-primary {
@@ -67,12 +80,13 @@
     .btn-secondary {
 
         margin-left: 90px !important;
-
-
-
+    }
+    .btn-primary:hover {
+        background-color: #5EBE80;
+        border: none;
     }
 }
-
+/* for x-large */
 @media only screen and (min-width:1001px) and (max-width: 2000px) {
     .btn-primary {
         margin-left: 220px;

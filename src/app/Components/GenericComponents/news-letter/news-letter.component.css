@@ -27,7 +27,7 @@
 }
 
 .input-group {
-    
+
     width: 45%;
     margin-left: 100px;
     border-color: #000000;
@@ -46,6 +46,7 @@
     background-color: var(--primary-color);
 }
 
+/* For Mobile */
 @media only screen and (min-width:200px) and (max-width: 500px) {
     .btn-primary {
         width: 80px;
