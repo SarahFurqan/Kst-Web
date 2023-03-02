@@ -45,14 +45,18 @@ footer {
     overflow: hidden;
 }
 
-.container-fluid .container {
+.col-md-5 {
     color: white;
     font-family: 'outfit';
-    display: flex;
-    justify-content: space-around;
-    align-items: center !important;
-    padding: 0px !important;
-    margin-top: 13px;
+    margin-top: 16px;
+    padding: 7px;
+}
+
+.col-md-2 {
+    color: white;
+    font-family: 'outfit';
+    margin-top: 16px;
+    text-decoration: none !important;
 }
 
 /* For Mobile*/
@@ -68,10 +72,48 @@ footer {
     .socialIcon {
         font-size: 10px;
     }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    .container {
+        font-size: 11px;
+    }
+
+    .image-fluid {
+        width: 80px;
+
+    }
 }
 
 /* For large*/
-@media only screen and (min-width:501px) and (max-width: 1000px) {}
+@media only screen and (min-width:501px) and (max-width: 1000px) {
+    .icon {
+        font-size: 15px;
+    }
+
+    .menu-items {
+        font-size: 15px;
+    }
+
+    .socialIcon {
+        font-size: 15px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    .container {
+        font-size: 15px;
+    }
+
+    .image-fluid {
+        width: 100px;
+
+    }
+}
 
 /* for x-large */
 @media only screen and (min-width:1001px) and (max-width: 2000px) {}

@@ -52,3 +52,20 @@
     background: none;
     font-family: 'Outfit';
 }
+
+/* For Mobile*/
+@media only screen and (min-width:100px) and (max-width: 500px){
+   .text-center{
+    font-size: 22px;
+
+   }
+}
+
+
+/* For Tablet*/
+@media only screen and (min-width:501px) and (max-width: 1000px) {
+    .text-center{
+        font-size: 30px;
+        
+       }
+}

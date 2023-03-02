@@ -16,5 +16,32 @@
     background-size: 100% 100%;
     transition: .4s;
     cursor: pointer;
-
 }
+
+.text-center {
+    font-family: 'Outfit';
+    font-size: 40px;
+}
+
+/* For Mobile*/
+@media only screen and (min-width:100px) and (max-width: 500px) {
+    .text-center {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+
+/* For Tablet*/
+@media only screen and (min-width:501px) and (max-width: 1000px) {
+    .text-center {
+        font-size: 35px;
+    }
+}
+
+
+/* For Large Screen*/
+@media only screen and (min-width:1001px) and (max-width: 2000px) {}

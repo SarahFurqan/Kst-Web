@@ -1,0 +1,60 @@
+h1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 41px;
+    line-height: 46px;
+    color: #29416F;
+}
+
+h3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.text-muted {
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.3px;
+    text-align: justify;
+}
+
+/* For Mobile*/
+@media only screen and (min-width:100px) and (max-width: 500px) {
+    h1{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+    .text-muted{
+        font-size: 14px;
+    }
+}
+
+/* For large*/
+@media only screen and (min-width:501px) and (max-width: 1000px) {
+    h1{
+        font-size: 35px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+    .text-muted{
+        font-size: 16px;
+    }
+}
+
+/* for x-large */
+@media only screen and (min-width:1001px) and (max-width: 2000px) {}

@@ -4,9 +4,15 @@
     border-radius: 0px;
 }
 
-.heading .h5 {
+/* .heading .h5 {
     margin-top: 170px;
     width: 118px;
+} */
+
+.mt-5 {
+    color: #29416F;
+    font-weight: 600;
+    font-family: 'Outfit';
 }
 
 .name {
@@ -23,3 +29,27 @@
     text-align: justify;
     font-family: 'Outfit';
 }
+
+
+/* For Mobile*/
+@media only screen and (min-width:100px) and (max-width: 500px) {
+
+    .name {
+        font-size: 24px;
+    }
+
+    .mt-5 {
+        font-size: 16px;
+    }
+}
+
+/* For large*/
+@media only screen and (min-width:501px) and (max-width: 1000px) {
+
+    .name {
+        font-size: 32px;
+    }
+}
+
+/* for x-large */
+@media only screen and (min-width:1001px) and (max-width: 2000px) {}

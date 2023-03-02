@@ -52,7 +52,7 @@
     }
 
     .btn-primary:hover {
-        background-color: #5EBE80;
+        background-color: #5EBE80 !important;
         border: none;
     }
 
@@ -73,6 +73,11 @@
 /* For large*/
 @media only screen and (min-width:501px) and (max-width: 1000px) {
 
+
+    .col {
+        font-size: 31px;
+    }
+
     .btn-primary {
         margin-left: 90px;
     }
@@ -81,16 +86,23 @@
 
         margin-left: 90px !important;
     }
+
     .btn-primary:hover {
-        background-color: #5EBE80;
+        background-color: #5EBE80 !important;
         border: none;
     }
 }
+
 /* for x-large */
 @media only screen and (min-width:1001px) and (max-width: 2000px) {
     .btn-primary {
         margin-left: 220px;
 
+    }
+
+    .btn-primary:hover {
+        background-color: #5EBE80 !important;
+        border: none;
     }
 
     .btn-secondary {
