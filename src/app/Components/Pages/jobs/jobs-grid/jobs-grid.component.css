@@ -58,7 +58,7 @@
 
 /* For Mobile*/
 @media only screen and (min-width:100px) and (max-width: 500px) {
-    .btn-secondary{
+    .btn-secondary {
         width: 45px;
         height: 40px;
         font-size: 10px;

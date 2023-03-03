@@ -40,15 +40,41 @@
     background: #5EBE80;
     border: none;
 }
-.card{
+
+.card {
     border: none;
 }
+
 .card.second {
     margin-top: 140px;
     border-radius: 8px;
     border: none;
 }
-.row.mt-4{
+
+.row.mt-4 {
     font-family: 'Outfit';
     color: #000000;
 }
+
+/* For Mobile*/
+@media only screen and (min-width:100px) and (max-width: 500px) {
+    .text {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+}
+
+
+/* For Tablet*/
+@media only screen and (min-width:501px) and (max-width: 1000px) {
+
+    .text {
+        font-size: 25px;
+    }
+}
+
+/* For Large Screen*/
+@media only screen and (min-width:1001px) and (max-width: 2000px) {}
