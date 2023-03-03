@@ -6,34 +6,58 @@
     top: 11px;
     border-radius: 0px;
 }
+
 .navbar-nav {
     display: flex;
-    justify-content:end;
+    justify-content: end;
     align-items: center;
     width: 100%;
     overflow: hidden;
     font-family: 'Outfit', sans-serif;
     font-weight: 500;
 }
-.nav-item{
+
+.nav-item {
     margin: 5px !important;
 }
-.nav-link.active.active-link{
+
+.nav-link.active.active-link {
     color: var(--primary-color);
     font-weight: bold;
 }
-.d-flex button {
+
+.btn-primary {
     background-color: var(--secondary-color);
     color: var(--text-color);
     width: 150px;
     top: 26px;
     border-radius: 8px;
     padding: 10px 10px 10px 10px;
-    font-weight: 600;
+    font-weight: 550;
     font-family: 'Outfit', sans-serif;
-    text-transform: capitalize; 
+    text-transform: capitalize;
 }
-.d-flex button:hover {
+
+.btn-primary:hover {
     background-color: var(--primary-color);
     color: var(--text-color);
 }
+
+
+
+/* For Mobile*/
+@media only screen and (min-width:100px) and (max-width: 500px) {
+    .btn-primary {
+        width: 70px;
+        height: 40px;
+        font-size: 10px;
+
+    }
+}
+
+/* For large*/
+@media only screen and (min-width:501px) and (max-width: 1000px) {}
+
+
+/* for x-large */
+@media only screen and (min-width:1001px) and (max-width: 2000px) {}

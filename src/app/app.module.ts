@@ -48,7 +48,7 @@ import { CardsPageComponent } from './Components/Pages/blog-news/cards-page/card
 import { LandingPageContactUsComponent } from './Components/Pages/contact-us/landing-page-contact-us/landing-page-contact-us.component';
 import { ContactUsFormPageComponent } from './Components/Pages/contact-us/contact-us-form-page/contact-us-form-page.component';
 import { PrivacyPolicyComponent } from './Components/Pages/privacy-policy/privacy-policy.component';
-
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -107,7 +107,8 @@ import { PrivacyPolicyComponent } from './Components/Pages/privacy-policy/privac
     FormsModule,
     FontAwesomeModule,
     RatingModule.forRoot(),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
