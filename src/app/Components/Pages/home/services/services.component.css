@@ -17,3 +17,49 @@
     transition: .4s;
     cursor: pointer;
 }
+
+.text-center {
+    font-family: 'Outfit';
+    font-size: 40px;
+}
+
+
+/* For Mobile*/
+@media only screen and (min-width:100px) and (max-width: 767px) {
+    .text-center {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .img-fluid {
+        width: 70px;
+    }
+}
+
+
+/* For Tablet*/
+@media only screen and (min-width:768px) and (max-width: 1000px) {
+    .text-center {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .img-fluid {
+        width: 75px;
+        height: 60px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+
+/* For Large Screen*/
+@media only screen and (min-width:1001px) and (max-width: 2000px) {}

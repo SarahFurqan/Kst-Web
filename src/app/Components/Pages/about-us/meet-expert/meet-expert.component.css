@@ -9,6 +9,10 @@
 
 }
 
+.card {
+    width: 220px;
+}
+
 .secondary {
     font-family: 'Outfit';
     font-style: normal;
@@ -21,21 +25,38 @@
 
 }
 
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    .card {
+        width: 90px;
+        margin-top: 15px;
+        margin-left: 140px;
+    }
+}
+
+
 /* For small */
-@media only screen and (min-width:100px) and (max-width: 576px) {
+@media only screen and (min-width:401px) and (max-width: 576px) {
 
 
     h3 {
-        font-size: 15px;
+        font-size: 17px;
         text-align: center;
     }
 
     h6 {
-        font-size: 10px;
+        font-size: 14px;
         text-align: center;
     }
 
+    .card {
+        width: 90px;
+        background-color: yellow;
+        margin-top: 15px;
+        margin-left: 190px;
+    }
 }
+
 
 /* For medium */
 @media only screen and (min-width:577px) and (max-width: 768px) {
@@ -51,10 +72,15 @@
         text-align: center;
     }
 
+    .card {
+        width: 120px;
+        margin-left: 250px;
+        margin-top: 15px;
+    }
 }
 
 /* For Large*/
-@media only screen and (min-width:769px) and (max-width: 992px) {
+@media only screen and (min-width:769px) and (max-width: 1039px) {
 
 
     h3 {
@@ -67,4 +93,20 @@
         text-align: center;
     }
 
+    .card {
+        width: 120px;
+        background-color: red;
+        margin-left: 120px;
+    }
+}
+
+
+/* For Large*/
+@media only screen and (min-width:1040px) and (max-width: 1600px) {
+
+    .card {
+        width: 150px;
+        background-color: blueviolet;
+        margin-left: 220px;
+    }
 }

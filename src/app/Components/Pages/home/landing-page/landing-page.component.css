@@ -91,13 +91,15 @@
         width: 20%;
         margin: 0px !important;
         font-size: 10px;
+        height: 39px;
     }
 
     .btn-secondary {
         width: 20%;
         margin: 0px !important;
-        font-size: 12px;
+        font-size: 10px;
         margin-left: 5px !important;
+        height: 39px;
     }
 }
 
