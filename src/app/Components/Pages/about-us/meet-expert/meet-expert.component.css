@@ -1,5 +1,5 @@
 .text {
-    font-family: 'Outfit';
+     
     font-style: normal;
     font-weight: 600;
     font-size: 44px;
@@ -14,7 +14,7 @@
 }
 
 .secondary {
-    font-family: 'Outfit';
+     
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -27,11 +27,23 @@
 
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
+    h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    h6 {
+        font-size: 11px;
+        text-align: center;
+    }
+
     .card {
         width: 90px;
-        margin-top: 15px;
-        margin-left: 140px;
+        margin: auto !important;
+        display: flex !important;
     }
+
+
 }
 
 
@@ -51,9 +63,8 @@
 
     .card {
         width: 90px;
-        background-color: yellow;
-        margin-top: 15px;
-        margin-left: 190px;
+        margin: auto !important;
+        display: flex !important;
     }
 }
 
@@ -74,8 +85,8 @@
 
     .card {
         width: 120px;
-        margin-left: 250px;
-        margin-top: 15px;
+        margin: auto !important;
+        display: flex !important;
     }
 }
 
@@ -95,18 +106,16 @@
 
     .card {
         width: 120px;
-        background-color: red;
         margin-left: 120px;
     }
 }
 
 
-/* For Large*/
-@media only screen and (min-width:1040px) and (max-width: 1600px) {
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {
 
     .card {
         width: 150px;
-        background-color: blueviolet;
         margin-left: 220px;
     }
 }

@@ -1,5 +1,5 @@
 .h1 {
-    font-family: 'Outfit';
+     
     font-style: normal;
     font-weight: 600;
     font-size: 44px;
@@ -15,7 +15,7 @@
 }
 
 .card {
-    font-family: 'Outfit';
+     
     border-radius: 8px;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .h6 {
-    font-family: 'Outfit';
+     
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -45,7 +45,7 @@
 
 /* Load More Button  */
 .btn-secondary {
-    font-family: 'Outfit';
+     
     background: var(--secondary-color);
     border-radius: 8px;
     margin-left: 48px;

@@ -7,7 +7,7 @@
     transition: .4s;
     border-radius: 8px;
     border-bottom: 10px solid #5EBE80;
-    font-family: 'Outfit';
+
 }
 
 .card:hover {
@@ -19,12 +19,12 @@
 }
 
 .text-center {
-    font-family: 'Outfit';
+
     font-size: 40px;
 }
 
-/* For Mobile*/
-@media only screen and (min-width:100px) and (max-width: 500px) {
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
     .text-center {
         font-size: 25px;
     }
@@ -32,16 +32,60 @@
     h2 {
         font-size: 20px;
     }
-}
 
-
-/* For Tablet*/
-@media only screen and (min-width:501px) and (max-width: 1000px) {
-    .text-center {
-        font-size: 35px;
+    p {
+        font-size: 15px;
     }
 }
 
 
-/* For Large Screen*/
-@media only screen and (min-width:1001px) and (max-width: 2000px) {}
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    .text-center {
+        font-size: 29px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    .text-center {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {
+    .text-center {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {}

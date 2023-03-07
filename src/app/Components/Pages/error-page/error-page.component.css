@@ -1,5 +1,5 @@
 .text-center h5 {
-    font-family: 'Outfit';
+     
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
@@ -9,7 +9,7 @@
 }
 
 .text-center h2 {
-    font-family: 'Outfit';
+     
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
@@ -19,7 +19,7 @@
 
 .btn-primary {
 
-    font-family: 'Outfit';
+     
     background: #29416F;
     border-radius: 8px;
 }

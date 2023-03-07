@@ -12,14 +12,14 @@
 .mt-5 {
     color: #29416F;
     font-weight: 600;
-    font-family: 'Outfit';
+     
 }
 
 .name {
     color: white;
     font-weight: 600;
     font-size: 44px;
-    font-family: 'Outfit';
+     
     line-height: 46px;
 
 }
@@ -27,7 +27,7 @@
 .text {
     color: white !important;
     text-align: justify;
-    font-family: 'Outfit';
+     
 }
 
 

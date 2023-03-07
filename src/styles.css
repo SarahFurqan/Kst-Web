@@ -1,6 +1,5 @@
 * {
-    padding: 0;
-    margin: 0;
+    font-family: 'outfit';
 }
 
 :root {
@@ -8,6 +7,10 @@
     --secondary-color: #29416F;
     --text-color: white;
     --black-color: black;
+}
+
+:host {
+    font-style: italic;
 }
 
 @font-face {

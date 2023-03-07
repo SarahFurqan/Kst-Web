@@ -1,7 +1,7 @@
 .text-center {
     margin-top: 90px;
     margin-bottom: 40px;
-    font-family: 'Outfit';
+     
     font-style: normal;
     font-weight: 600;
     font-size: 35px;
@@ -16,7 +16,7 @@
 
 .card-title {
     color: #5EBE80;
-    font-family: 'outfit';
+     
 }
 
 .text-muted {
@@ -24,7 +24,7 @@
 }
 
 .card-text {
-    font-family: 'outfit';
+     
     font-style: normal;
     font-weight: 650;
     font-size: 19px;
@@ -51,5 +51,5 @@
 .card-footer {
     border: none;
     background: none;
-    font-family: 'Outfit';
+     
 }

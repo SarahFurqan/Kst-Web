@@ -1,5 +1,4 @@
 .col {
-    font-family: 'Outfit';
     font-style: normal;
     font-weight: 600;
     font-size: 44px;
@@ -9,8 +8,7 @@
 }
 
 .btn-primary {
-    margin-left: 190px;
-    font-family: 'Outfit';
+    margin-left: 190px; 
     background: #29416F;
     border-radius: 8px;
     margin-bottom: 45px;
@@ -23,8 +21,7 @@
 
 
 .btn-secondary {
-    margin-left: 190px;
-    font-family: 'Outfit';
+    margin-left: 190px;   
     color: #29416F;
     background: #F5F5F5;
     border-radius: 8px;

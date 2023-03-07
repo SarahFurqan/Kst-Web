@@ -1,6 +1,6 @@
 .text {
     margin-top: 60px;
-    font-family: 'Outfit';
+     
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -9,7 +9,7 @@
 }
 
 .form-text {
-    font-family: 'Outfit';
+     
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -18,7 +18,7 @@
 }
 
 .form-group {
-    font-family: 'Outfit';
+     
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -52,7 +52,7 @@
 }
 
 .row.mt-4 {
-    font-family: 'Outfit';
+     
     color: #000000;
 }
 

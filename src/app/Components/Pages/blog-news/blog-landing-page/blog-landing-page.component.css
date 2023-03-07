@@ -12,11 +12,11 @@
 
 .container-fluid h1 {
     font-weight: 900;
-    font-family: 'Outfit';
+     
 }
 
 .container-fluid h6 {
-    font-family: 'Outfit';
+     
 
 }
 
@@ -38,7 +38,7 @@
     color: var(--text-color);
     border-radius: 8px;
     border: none;
-    font-family: 'Outfit';
+     
     width: 13%;
 }
 
@@ -50,7 +50,7 @@
     background-color: rgb(219, 217, 217);
     color: black;
     border-radius: 8px;
-    font-family: 'Outfit';
+     
     padding: 10px;
     width: 13%;
     margin-left: 15px;

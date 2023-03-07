@@ -1,5 +1,4 @@
-h1 {
-    font-family: 'Outfit';
+h1 {  
     font-style: normal;
     font-weight: 550;
     font-size: 41px;
@@ -7,8 +6,7 @@ h1 {
     color: #29416F;
 }
 
-h3 {
-    font-family: 'Outfit';
+h3 {   
     font-style: normal;
     font-weight: 500;
     font-size: 31px;
@@ -18,8 +16,7 @@ h3 {
 }
 
 .text-muted {
-
-    font-family: 'Outfit';
+     
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
