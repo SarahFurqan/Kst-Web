@@ -8,7 +8,7 @@
 }
 
 .btn-primary {
-    margin-left: 190px; 
+    margin-left: 190px;
     background: #29416F;
     border-radius: 8px;
     margin-bottom: 45px;
@@ -21,7 +21,7 @@
 
 
 .btn-secondary {
-    margin-left: 190px;   
+    margin-left: 190px;
     color: #29416F;
     background: #F5F5F5;
     border-radius: 8px;
@@ -31,7 +31,7 @@
 .btn-secondary:hover {
     border: none;
     color: #F5F5F5;
-    background-color: #5EBE80;
+    background-color: #5EBE80 !important;
 }
 
 /* For Mobile*/
@@ -45,6 +45,9 @@
         width: 80px;
         height: 40px;
         font-size: 10px;
+        margin: auto !important;
+        display: flex !important;
+
 
     }
 
@@ -57,18 +60,21 @@
         width: 80px;
         height: 40px;
         font-size: 10px;
+        margin: auto !important;
+        display: flex !important;
+
     }
 
     .btn-secondary:hover {
         border: none;
         color: #F5F5F5;
-        background-color: #5EBE80;
+        background-color: #5EBE80 !important;
     }
 
 }
 
 /* For large*/
-@media only screen and (min-width:501px) and (max-width: 1000px) {
+@media only screen and (min-width:501px) and (max-width: 767px) {
 
 
     .col {
@@ -76,12 +82,13 @@
     }
 
     .btn-primary {
-        margin-left: 90px;
+        margin: auto !important;
+        display: flex !important;
     }
 
     .btn-secondary {
-
-        margin-left: 90px !important;
+        margin: auto !important;
+        display: flex !important;
     }
 
     .btn-primary:hover {
@@ -91,9 +98,9 @@
 }
 
 /* for x-large */
-@media only screen and (min-width:1001px) and (max-width: 2000px) {
+@media only screen and (min-width:768px) and (max-width: 1200px) {
     .btn-primary {
-        margin-left: 220px;
+        margin-left: 190px;
 
     }
 
