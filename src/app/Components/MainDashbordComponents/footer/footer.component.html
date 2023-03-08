@@ -1,31 +1,28 @@
 <footer class="row row-cols-5 py-5 my-1 container-fluid mt-4 border-top">
-    <div class="col container mx-auto ">
-        <a class="d-flex align-items-center mb-3 text-decoration-none">
-            <img src="../../../assets/Footer-images/KSTLogo6.png" alt="image not found" />
+    <div class="col container mx-auto">
+        <a class="align-items-center mb-3">
+            <img src="../../../assets/Footer-images/KSTLogo6.png" class="image-fluid" alt="image not found" />
         </a>
     </div>
-    <div class="col md-4 lg-4">
-        <h5>
-            <span style="color: var(--secondary-color); 
-                font-family: outfit;">Page Links
-            </span>
-        </h5>
+    <!-- Page Links -->
+    <div class="col">
+        <h5>Page Links</h5>
         <div class="menu">
             <ul class="nav flex-column menu-items">
                 <li class="nav-item mb-2">
                     <div>
                         <fa-icon [icon]="home">
                         </fa-icon>
-                        <a routerLink="home" routerLinkActive="active" ariaCurrentWhenActive="page"
-                            class=" icon p-0"> Home</a>
+                        <a routerLink="home" routerLinkActive="active" ariaCurrentWhenActive="page" class=" icon p-0">
+                            Home</a>
                     </div>
                 </li>
                 <li class="nav-item mb-2">
                     <div>
                         <fa-icon [icon]="aboutus">
                         </fa-icon>
-                        <a routerLink="about" routerLinkActive="active" ariaCurrentWhenActive="page"
-                            class=" icon p-0"> About</a>
+                        <a routerLink="about" routerLinkActive="active" ariaCurrentWhenActive="page" class=" icon p-0">
+                            About</a>
                     </div>
                 </li>
                 <li class="nav-item mb-2">
@@ -56,8 +53,8 @@
                     <div>
                         <fa-icon [icon]="jobs">
                         </fa-icon>
-                        <a routerLink="jobs" routerLinkActive="active" ariaCurrentWhenActive="page"
-                            class=" icon p-0"> Jobs</a>
+                        <a routerLink="jobs" routerLinkActive="active" ariaCurrentWhenActive="page" class=" icon p-0">
+                            Jobs</a>
                     </div>
                 </li>
                 <li class="nav-item mb-2">
@@ -74,37 +71,34 @@
 
     </div>
 
-    <div class="col md-4 lg-4">
-        <h5><span style="color: var(--secondary-color); font-family: outfit;"> Contact Info</span></h5>
+    <!-- Contact Info -->
+    <div class="col">
+        <h5>Contact Info</h5>
         <ul class="nav flex-column menu-items">
             <li class="nav-item mb-2">
                 <fa-icon [icon]="number">
-                </fa-icon> 
+                </fa-icon>
                 <a href="#" class=" icon p-0"> (042) 37862807
                 </a>
             </li>
             <li class="nav-item mb-2">
                 <fa-icon [icon]="env">
                 </fa-icon>
-                <a href="#" class="icon p-0"> info@ks-technologies.net 
+                <a href="#" class="icon p-0"> info@ks-technologies.net
                 </a>
             </li>
             <li class="nav-item mb-2">
                 <fa-icon [icon]="locate">
-                </fa-icon> 
+                </fa-icon>
                 <a href="#" class="icon p-0"> Palm Tower, Bahria Town
                 </a>
             </li>
         </ul>
     </div>
 
-    <div class="col md-4 lg-4">
-        <h5>
-            <span style="color: var(--secondary-color); 
-                font-family: outfit;">
-                Social Media
-            </span>
-        </h5>
+    <!-- Social Media -->
+    <div class="col">
+        <h5>Social Media</h5>
         <ul class="nav flex-row iconss">
             <div class="socialIcon">
                 <fa-icon [icon]="facebook">
@@ -121,11 +115,16 @@
         </ul>
     </div>
 </footer>
+
+<!-- Blue-container -->
 <div class="container-fluid p-0">
-    <div class="container">
-        <p>Copyright 2023 © All Right Reserved Design by KS-Technologies</p>
-        <div class="end1">
-            <p>Privacy Policy</p>
+
+    <div class="row">
+        <div class="offset-1 col-md-5">
+            <p>Copyright 2023 © All Right Reserved Design by KS-Technologies</p>
+        </div>
+        <div class="offset-3 col-md-2">
+            <a routerLink="privacy-policy">Privacy Policy</a>
         </div>
     </div>
 </div>

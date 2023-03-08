@@ -1,0 +1,80 @@
+.text {
+    margin-top: 60px;
+     
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.form-text {
+     
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.15px;
+    color: #000000;
+}
+
+.form-group {
+     
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.form-control {
+    background-color: #EAEAEA;
+    border: none;
+}
+
+.btn-primary {
+    background: #29416F;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background: #5EBE80;
+    border: none;
+}
+
+.card {
+    border: none;
+}
+
+.card.second {
+    margin-top: 140px;
+    border-radius: 8px;
+    border: none;
+}
+
+.row.mt-4 {
+     
+    color: #000000;
+}
+
+/* For Mobile*/
+@media only screen and (min-width:100px) and (max-width: 500px) {
+    .text {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+}
+
+
+/* For Tablet*/
+@media only screen and (min-width:501px) and (max-width: 1000px) {
+
+    .text {
+        font-size: 25px;
+    }
+}
+
+/* For Large Screen*/
+@media only screen and (min-width:1001px) and (max-width: 2000px) {}

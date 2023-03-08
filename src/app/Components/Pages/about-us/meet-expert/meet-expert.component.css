@@ -1,0 +1,121 @@
+.text {
+     
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.card {
+    width: 220px;
+}
+
+.secondary {
+     
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #000000;
+
+}
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    h6 {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .card {
+        width: 90px;
+        margin: auto !important;
+        display: flex !important;
+    }
+
+
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+
+
+    h3 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    h6 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .card {
+        width: 90px;
+        margin: auto !important;
+        display: flex !important;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h6 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .card {
+        width: 120px;
+        margin: auto !important;
+        display: flex !important;
+    }
+}
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {
+
+
+    h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    h6 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .card {
+        width: 120px;
+        margin-left: 120px;
+    }
+}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {
+
+    .card {
+        width: 150px;
+        margin-left: 220px;
+    }
+}

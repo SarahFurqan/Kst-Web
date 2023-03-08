@@ -1,0 +1,71 @@
+.text-center {
+    margin-top: 90px;
+    margin-bottom: 40px;
+     
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 46px;
+    color: #000000;
+}
+
+.card {
+    border: none;
+    cursor: pointer;
+}
+
+.card-title {
+    color: #5EBE80;
+     
+}
+
+.text-muted {
+    margin-left: 100px;
+}
+
+.card-text {
+     
+    font-style: normal;
+    font-weight: 650;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.card-body {
+    margin: 8px;
+}
+
+.card img {
+    border-radius: none !important;
+    border: none !important;
+}
+
+.card-img-top {
+    border-radius: 0px !important;
+    border: 0px;
+    overflow: hidden;
+}
+
+.card-footer {
+    border: none;
+    background: none;
+     
+}
+
+/* For Mobile*/
+@media only screen and (min-width:100px) and (max-width: 500px){
+   .text-center{
+    font-size: 22px;
+
+   }
+}
+
+
+/* For Tablet*/
+@media only screen and (min-width:501px) and (max-width: 1000px) {
+    .text-center{
+        font-size: 30px;
+        
+       }
+}

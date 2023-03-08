@@ -1,5 +1,5 @@
-.h1{
-    font-family: 'Outfit';
+.h1 {
+     
     font-style: normal;
     font-weight: 600;
     font-size: 44px;
@@ -7,19 +7,19 @@
     color: #000000;
 }
 
-.btn-primary{
+.btn-primary {
     background: var(--secondary-color);
     border-radius: 8px;
     border: none;
 
 }
 
-.card{
-    font-family: 'Outfit';
+.card {
+     
     border-radius: 8px;
 }
 
-.card:hover{
+.card:hover {
     background-color: var(--secondary-color);
     color: var(--text-color);
     transition: all 0.2s ease;
@@ -30,21 +30,40 @@
     color: #5EBE80;
 }
 
-.card-body:hover .btn-primary{
+.card-body:hover .btn-primary {
     background-color: #5EBE80;
 }
 
 .h6 {
-    font-family: 'Outfit';
+     
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 0.4px;
 }
+
 /* Load More Button  */
 .btn-secondary {
+     
     background: var(--secondary-color);
     border-radius: 8px;
     margin-left: 48px;
 }
+
+.btn-secondary:hover {
+    background-color: #5EBE80;
+}
+
+
+/* For Mobile*/
+@media only screen and (min-width:100px) and (max-width: 500px) {
+    .btn-secondary {
+        width: 45px;
+        height: 40px;
+        font-size: 10px;
+    }
+}
+
+/* For Tablet*/
+@media only screen and (min-width:501px) and (max-width: 1000px) {}

@@ -1,4 +1,4 @@
-.banner {
+.container-fluid {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -9,80 +9,103 @@
     background-position: center;
     overflow: hidden;
 }
-.banner h1 {
+
+.container-fluid h1 {
     font-weight: 900;
-    font-family: 'Outfit';
+     
 }
-.banner h6 {
-    font-family: 'Outfit';
+
+.container-fluid h6 {
+     
 
 }
-.row.mt-4{
+
+.card {
+    background: none;
+    border: none;
+    width: 490px;
+    height: 120px;
+
+}
+
+.row.mt-4 {
     display: flex;
     justify-content: center;
 }
+
 .btn-primary {
     background-color: var(--secondary-color);
     color: var(--text-color);
     border-radius: 8px;
     border: none;
-    font-family: 'Outfit';
+     
     width: 13%;
 }
+
 .btn-primary:hover {
     background-color: var(--primary-color);
 }
+
 .btn-secondary {
     background-color: rgb(219, 217, 217);
     color: black;
     border-radius: 8px;
-    font-family: 'Outfit';
+     
     padding: 10px;
     width: 13%;
     margin-left: 15px;
     border: none !important;
 
 }
+
 .btn-secondary:hover {
     background-color: var(--primary-color);
     color: #F2F2F2;
 
 }
 
-@media (max-width: 575.98px) {
-    .banner {
+/* For Mobile*/
+@media only screen and (min-width:100px) and (max-width: 500px) {
+    .container-fluid {
         width: 100%;
         height: auto;
         padding: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(../../../../../assets/HomePage-images/Rectangle4.png);
         background-size: cover;
         background-position: center;
         overflow: hidden;
+        font-size: 10px;
     }
 
-    .banner h6 {
+    h1 {
+        font-size: 19px !important;
+    }
+
+    h6 {
         font-size: 13px;
     }
 
     .btn-primary {
         width: 20%;
         margin: 0px !important;
-        font-size: 12px;
+        font-size: 10px;
+        height: 39px;
     }
 
     .btn-secondary {
         width: 20%;
         margin: 0px !important;
-        font-size: 12px;
+        font-size: 10px;
         margin-left: 5px !important;
+        height: 39px;
     }
 }
 
-@media (max-width: 767.98px) {
-    .banner {
+/* For Tablet*/
+@media only screen and (min-width:501px) and (max-width: 1000px) {
+    .container-fluid {
         width: 100%;
         height: auto;
         padding: 30px;
@@ -103,30 +126,36 @@
     }
 }
 
-@media (max-width: 991.98px) {
-    .banner {
+/* For Large Screen*/
+@media only screen and (min-width:1001px) and (max-width: 2000px) {
+    .container-fluid {
         width: 100%;
-        height: 50vh;
+        /* height: 50vh; */
         padding: 30px;
 
+    }
+
+    .container-fluid h1 {
+        font-size: 32px;
     }
 
     .btn-primary {
         width: 20%;
         margin: 0px !important;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .btn-secondary {
         width: 20%;
         margin: 0px !important;
-        font-size: 12px;
-        margin-left: 5px !important;
+        font-size: 15px;
+        margin-left: 8px !important;
     }
 }
 
+/* For x-Large Screen*/
 @media (max-width: 1200px) {
-    .banner {
+    .container-fluid {
         width: 100%;
         height: 50vh;
         padding: 30px;

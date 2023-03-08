@@ -1,4 +1,4 @@
-.container.mt-5.mb-5{
+.container.mt-5.mb-5 {
     padding: 20px;
     margin-top: 70px !important;
 }
@@ -6,7 +6,7 @@
 .title {
     color: var(--black-color);
     font-weight: 700;
-    font-size: 44px;
+    font-size: 40px;
     font-family: Outfit;
     text-decoration: none;
 }
@@ -38,33 +38,33 @@
 }
 
 .text {
-    font-family: 'Outfit';
+     
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0.5px;
     text-align: left;
-
 }
 
 .text-secondary {
     color: var(--secondary-color);
     font-weight: 550;
-    font-family: 'Outfit';
+     
     font-size: 14px;
     text-decoration: none;
 }
 
+/* For Mobile */
 @media (max-width: 575.98px) {
-    .container.mt-5.mb-5{
+    .container.mt-5.mb-5 {
         padding: 10px;
     }
 
-    .title {
+    .row h2 {
         color: var(--black-color);
         font-weight: 600;
-        font-size: 18px;
-        text-decoration: none;
+        font-size: 16px;
+
     }
 
     .text {
@@ -74,7 +74,7 @@
     .btn-primary {
         padding: 10px 5px;
         font-size: 12px;
-        
+
     }
 
     .btn-secondary {
@@ -84,13 +84,16 @@
     }
 }
 
-@media (max-width: 767.98px) {
-    .container.mt-5.mb-5{
+
+/* For Tablet*/
+@media only screen and (min-width:578px) and (max-width: 1000px) {
+
+    .container.mt-5.mb-5 {
         padding: 10px;
         margin-top: 50px !important;
     }
 
-    .title {
+    .row h2 {
         color: var(--black-color);
         font-weight: 600;
         font-size: 25px;
@@ -115,15 +118,15 @@
 }
 
 @media (max-width: 991.98px) {
-    .container.mt-5.mb-5{
+    .container.mt-5.mb-5 {
         padding: 10px;
         margin-top: 50px !important;
     }
 
-    .title {
+    .row h2 {
         color: var(--black-color);
         font-weight: 600;
-        font-size: 18px;
+        font-size: 30px;
         text-decoration: none;
     }
 
@@ -144,7 +147,7 @@
 }
 
 @media (max-width: 1200px) {
-    .container.mt-5.mb-5{
+    .container.mt-5.mb-5 {
         padding: 10px;
         margin-top: 50px !important;
     }

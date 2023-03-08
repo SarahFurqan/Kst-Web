@@ -1,27 +1,33 @@
+.card {
+    background-color: #F2F2F2;
+    border: none;
+     
 
-.box7{
-    background-color: #F2F2F2;
-    border: none;
-}
-.box8{
-    background-color: #F2F2F2;
-    border: none;
-}
-.box9{
-    background-color: #F2F2F2;
-    border: none;
 }
 
-.author{
-   margin-right: 120px;
-}
-.star{
-    /* margin-left: 40px; */
-    color: #29416F;
+.text-center {
     font-family: outfit;
+    font-weight: 550px;
+
 }
-.designate{
-    /* margin-left: 110px; */
+
+.text {
     color: #29416F;
-    font-family: outfit;
+
 }
+
+
+/* For Mobile*/
+@media only screen and (min-width:100px) and (max-width: 768px) {
+    .card {
+        margin-top: 30px;
+    }
+}
+
+
+/* For Tablet*/
+@media only screen and (min-width:501px) and (max-width: 1000px) {}
+
+
+/* For Large Screen*/
+@media only screen and (min-width:1001px) and (max-width: 2000px) {}

@@ -42,7 +42,13 @@ import { OurPortfolioComponent } from './Components/Pages/portfolio/our-portfoli
 import { ImageGridComponent } from './Components/GenericComponents/image-grid/image-grid.component';
 import { ServicesLandingPageComponent } from './Components/Pages/our-services/services-landing-page/services-landing-page.component';
 import { BlogLandingPageComponent } from './Components/Pages/blog-news/blog-landing-page/blog-landing-page.component';
-
+import { ServiceClientsComponent } from './Components/Pages/our-services/service-clients/service-clients.component';
+import { AccordionsComponent } from './Components/Pages/about-us/accordions/accordions.component';
+import { CardsPageComponent } from './Components/Pages/blog-news/cards-page/cards-page.component';
+import { LandingPageContactUsComponent } from './Components/Pages/contact-us/landing-page-contact-us/landing-page-contact-us.component';
+import { ContactUsFormPageComponent } from './Components/Pages/contact-us/contact-us-form-page/contact-us-form-page.component';
+import { PrivacyPolicyComponent } from './Components/Pages/privacy-policy/privacy-policy.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -84,7 +90,13 @@ import { BlogLandingPageComponent } from './Components/Pages/blog-news/blog-land
     OurPortfolioComponent,
     ImageGridComponent,
     ServicesLandingPageComponent,
-    BlogLandingPageComponent
+    BlogLandingPageComponent,
+    ServiceClientsComponent,
+    AccordionsComponent,
+    CardsPageComponent,
+    LandingPageContactUsComponent,
+    ContactUsFormPageComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,
@@ -95,7 +107,8 @@ import { BlogLandingPageComponent } from './Components/Pages/blog-news/blog-land
     FormsModule,
     FontAwesomeModule,
     RatingModule.forRoot(),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

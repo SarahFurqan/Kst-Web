@@ -1,0 +1,113 @@
+.container-fluid {
+    width: 100%;
+    min-height: 70vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../../../assets/our-services-images/ourservices.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.container-fluid h1 {
+    font-weight: 900;
+
+}
+
+.row.mt-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border-radius: 8px;
+    border: none;
+    width: 13%;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+}
+
+.btn-secondary {
+    background-color: rgb(219, 217, 217);
+    color: black;
+    border-radius: 8px;
+    padding: 10px;
+    width: 13%;
+    margin-left: 15px;
+    border: none !important;
+}
+
+.btn-secondary:hover {
+    background-color: var(--primary-color);
+    color: #F2F2F2;
+
+}
+
+/* For Mobile*/
+@media only screen and (min-width:100px) and (max-width: 500px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .btn-primary {
+        width: 60px;
+        margin: 0px !important;
+        font-size: 10px;
+    }
+
+    .btn-secondary {
+        width: 60px;
+        margin: 0px !important;
+        font-size: 10px;
+        margin-left: 5px !important;
+    }
+
+    .container-fluid {
+        min-height: 45vh !important;
+    }
+}
+
+/* For Tablet*/
+@media only screen and (min-width:501px) and (max-width: 1000px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .btn-primary {
+        width: 100px;
+        margin: 0px !important;
+        font-size: 13px;
+    }
+
+    .btn-secondary {
+        width: 100px;
+        margin: 0px !important;
+        font-size: 13px;
+        margin-left: 5px !important;
+    }
+}
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {}

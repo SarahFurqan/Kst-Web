@@ -6,6 +6,7 @@ import { OurServicesComponent } from './Components/Pages/our-services/our-servic
 import { BlogNewsComponent } from './Components/Pages/blog-news/blog-news.component';
 import { PortfolioComponent } from './Components/Pages/portfolio/portfolio.component';
 import { JobsComponent } from './Components/Pages/jobs/jobs.component';
+import { PrivacyPolicyComponent } from './Components/Pages/privacy-policy/privacy-policy.component';
 import { ContactUsComponent } from './Components/Pages/contact-us/contact-us.component';
 import { LogInPageComponent } from './Components/AuthForms/log-in-page/log-in-page.component';
 import { SignUpPageComponent } from './Components/AuthForms/sign-up-page/sign-up-page.component';
@@ -26,6 +27,9 @@ const routes: Routes = [
   },
   { component: PortfolioComponent,
     path:"portfolio"  
+  },
+  { component: PrivacyPolicyComponent,
+    path:"privacy-policy"  
   },
   { component: JobsComponent,
     path:"jobs"  
