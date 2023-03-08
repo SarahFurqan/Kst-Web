@@ -1,6 +1,5 @@
 .text {
     margin-top: 60px;
-     
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -9,7 +8,7 @@
 }
 
 .form-text {
-     
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -18,7 +17,7 @@
 }
 
 .form-group {
-     
+
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -52,29 +51,57 @@
 }
 
 .row.mt-4 {
-     
+
     color: #000000;
 }
 
-/* For Mobile*/
-@media only screen and (min-width:100px) and (max-width: 500px) {
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    .text {
+        font-size: 16px;
+    }
+
+    .form-group {
+        width: 250px;
+    }
+    h4{
+        font-size: 14px;
+    }
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
     .text {
         font-size: 18px;
     }
 
-    h4 {
-        font-size: 17px;
+    .form-group {
+        width: 360px;
     }
 }
 
 
-/* For Tablet*/
-@media only screen and (min-width:501px) and (max-width: 1000px) {
-
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
     .text {
-        font-size: 25px;
+        font-size: 19px;
+    }
+
+    .form-group {
+        width: 550px;
     }
 }
 
-/* For Large Screen*/
-@media only screen and (min-width:1001px) and (max-width: 2000px) {}
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {
+    .card.second {
+        margin-left: 170px;
+    }
+    
+}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {}

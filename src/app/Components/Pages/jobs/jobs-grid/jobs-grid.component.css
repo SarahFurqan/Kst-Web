@@ -1,5 +1,5 @@
-.h1 {
-     
+h1 {
+
     font-style: normal;
     font-weight: 600;
     font-size: 44px;
@@ -11,12 +11,12 @@
     background: var(--secondary-color);
     border-radius: 8px;
     border: none;
-
 }
 
 .card {
-     
+
     border-radius: 8px;
+    width: 27rem;
 }
 
 .card:hover {
@@ -34,8 +34,8 @@
     background-color: #5EBE80;
 }
 
-.h6 {
-     
+h6 {
+
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -45,7 +45,7 @@
 
 /* Load More Button  */
 .btn-secondary {
-     
+
     background: var(--secondary-color);
     border-radius: 8px;
     margin-left: 48px;
@@ -56,14 +56,65 @@
 }
 
 
-/* For Mobile*/
-@media only screen and (min-width:100px) and (max-width: 500px) {
-    .btn-secondary {
-        width: 45px;
-        height: 40px;
-        font-size: 10px;
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    h1 {
+        font-size: 19px;
+    }
+
+    .card {
+        margin-top: 20px;
+        /* margin-right: 20px; */
+        width: 22rem;
     }
 }
 
-/* For Tablet*/
-@media only screen and (min-width:501px) and (max-width: 1000px) {}
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .card {
+        margin-top: 20px;
+        align-items: center !important;
+        width: 29rem;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    h1 {
+        font-size: 29px;
+    }
+
+    .card {
+        margin-top: 20px;
+        width: 30rem;
+    }
+
+}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .card {
+        width: 22rem;
+        /* margin-left: 30px; */
+        margin-top: 20px;
+    }
+}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {
+    .card {
+        margin-top: 20px;
+    }
+}

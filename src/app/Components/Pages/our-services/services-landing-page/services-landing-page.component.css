@@ -48,21 +48,26 @@
 
 }
 
-/* For Mobile*/
-@media only screen and (min-width:100px) and (max-width: 500px) {
-
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
     h1 {
         font-size: 20px;
     }
 
+    h6 {
+        font-size: 12px;
+    }
+
     .btn-primary {
-        width: 60px;
+        width: 50px;
+        height: 40px;
         margin: 0px !important;
         font-size: 10px;
     }
 
     .btn-secondary {
-        width: 60px;
+        width: 50px;
+        height: 40px;
         margin: 0px !important;
         font-size: 10px;
         margin-left: 5px !important;
@@ -73,10 +78,42 @@
     }
 }
 
-/* For Tablet*/
-@media only screen and (min-width:501px) and (max-width: 1000px) {
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
     h1 {
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 13px;
+    }
+
+    .btn-primary {
+        width: 50px;
+        height: 40px;
+        margin: 0px !important;
+        font-size: 10px;
+    }
+
+    .btn-secondary {
+        width: 50px;
+        height: 40px;
+        margin: 0px !important;
+        font-size: 10px;
+        margin-left: 5px !important;
+    }
+
+    .container-fluid {
+        min-height: 55vh !important;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    h1 {
+        font-size: 23px;
     }
 
     .btn-primary {
@@ -91,22 +128,20 @@
         font-size: 13px;
         margin-left: 5px !important;
     }
+
+    .container-fluid {
+        min-height: 65vh !important;
+    }
 }
-
-/* For x-small */
-@media only screen and (min-width:200px) and (max-width:400px) {}
-
-
-/* For small */
-@media only screen and (min-width:401px) and (max-width: 576px) {}
-
-
-/* For medium */
-@media only screen and (min-width:577px) and (max-width: 768px) {}
 
 
 /* For Large*/
-@media only screen and (min-width:769px) and (max-width: 1039px) {}
+@media only screen and (min-width:769px) and (max-width: 1039px) {
+
+    .container-fluid {
+        min-height: 75vh !important;
+    }
+}
 
 
 /* For x-Large*/
