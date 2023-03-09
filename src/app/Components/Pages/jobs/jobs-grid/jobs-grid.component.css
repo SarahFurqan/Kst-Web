@@ -65,7 +65,17 @@ h6 {
     .card {
         margin-top: 20px;
         /* margin-right: 20px; */
-        width: 22rem;
+        width: 19rem;
+        font-size: 12px;
+    }
+
+    .btn-primary {
+        font-size: 12px;
+    }
+
+    .btn-secondary {
+        font-size: 12px;
+
     }
 }
 
@@ -79,7 +89,14 @@ h6 {
     .card {
         margin-top: 20px;
         align-items: center !important;
-        width: 29rem;
+        width: 25rem;
+        font-size: 15px;
+        margin-left: 10%;
+    }
+
+    .btn-secondary {
+        font-size: 15px;
+
     }
 }
 
@@ -92,29 +109,53 @@ h6 {
 
     .card {
         margin-top: 20px;
-        width: 30rem;
+        align-items: center !important;
+        width: 25rem;
+        font-size: 15px;
+    }
+
+    .btn-secondary {
+        font-size: 15px;
+
     }
 
 }
 
-
 /* For Large*/
-@media only screen and (min-width:769px) and (max-width: 1039px) {
+@media only screen and (min-width:769px) and (max-width: 827px) {
     h1 {
-        font-size: 32px;
+        font-size: 31px;
     }
 
     .card {
-        width: 22rem;
+        width: 20rem;
         /* margin-left: 30px; */
+        align-items: center !important;
         margin-top: 20px;
+    }
+
+    .btn-secondary {
+        margin: auto !important;
+        display: flex !important;
     }
 }
 
 
 /* For x-Large*/
-@media only screen and (min-width:1040px) and (max-width: 1700px) {
+@media only screen and (min-width:828px) and (max-width: 1200px) {
     .card {
-        margin-top: 20px;
+        width: 22rem;
+        margin-top: 20px !important;
+
+    }
+
+    .btn-secondary {
+        margin: auto !important;
+        display: flex !important;
+    }
+
+    .row {
+        display: flex !important;
+        justify-content: center !important;
     }
 }

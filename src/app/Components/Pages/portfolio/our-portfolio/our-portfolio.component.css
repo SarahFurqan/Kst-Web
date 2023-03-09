@@ -95,6 +95,11 @@
         background-color: #5EBE80 !important;
         border: none;
     }
+
+    .btn-secondary:hover {
+        background-color: #5EBE80 !important;
+        border: none;
+    }
 }
 
 /* for x-large */
@@ -112,5 +117,10 @@
     .btn-secondary {
 
         margin-left: 190px;
+    }
+
+    .btn-secondary:hover {
+        background-color: #5EBE80 !important;
+        border: none;
     }
 }

@@ -7,7 +7,7 @@ footer {
 
 .icon {
     text-decoration: none;
-    color: var(--secondary-color); 
+    color: var(--secondary-color);
 }
 
 .menu-items {
@@ -36,28 +36,27 @@ footer {
     width: 25px;
 }
 
-.container-fluid.p-0 {
+.container-fluid {
     background-color: var(--secondary-color);
-    padding: 0px !important;
-    margin: 0px !important;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
-.col-md-5 {
+.text {
     color: white;
-    margin-top: 16px;
-    padding: 7px;
+    /* margin-top: 16px; */
+    /* padding: 7px; */
 }
 
-.col-md-2 {
+.text-end {
     color: white;
-    margin-top: 16px;
-    text-decoration: none !important;
+    /* margin-top: 16px; */
+    text-align: end !important;
 
 }
 
-/* For Mobile*/
-@media only screen and (min-width:100px) and (max-width: 500px) {
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
     .icon {
         font-size: 10px;
     }
@@ -78,39 +77,63 @@ footer {
         font-size: 11px;
     }
 
-    .image-fluid {
-        width: 80px;
+    .text {
+        font-size: 10px;
+    }
 
+    .text-end {
+        font-size: 10px;
     }
 }
 
-/* For large*/
-@media only screen and (min-width:501px) and (max-width: 1000px) {
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
     .icon {
-        font-size: 15px;
+        font-size: 11px;
     }
 
     .menu-items {
-        font-size: 15px;
+        font-size: 11px;
     }
 
     .socialIcon {
-        font-size: 15px;
+        font-size: 11px;
     }
 
     h5 {
-        font-size: 20px;
-    }
-
-    .container {
         font-size: 15px;
     }
 
-    .image-fluid {
-        width: 100px;
+    .container {
+        font-size: 12px;
+    }
 
+    .text {
+        font-size: 11px;
+    }
+
+    .text-end {
+        font-size: 11px;
     }
 }
 
-/* for x-large */
-@media only screen and (min-width:1001px) and (max-width: 2000px) {}
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {
+    .text {
+        text-align: center !important;
+    }
+}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {
+    .text {
+        text-align: center !important;
+    }
+}

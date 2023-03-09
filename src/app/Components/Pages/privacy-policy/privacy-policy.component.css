@@ -1,4 +1,4 @@
-h1 {  
+h1 {
     font-style: normal;
     font-weight: 550;
     font-size: 41px;
@@ -6,7 +6,7 @@ h1 {
     color: #29416F;
 }
 
-h3 {   
+h3 {
     font-style: normal;
     font-weight: 500;
     font-size: 31px;
@@ -16,7 +16,7 @@ h3 {
 }
 
 .text-muted {
-     
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -25,33 +25,64 @@ h3 {
     text-align: justify;
 }
 
-/* For Mobile*/
-@media only screen and (min-width:100px) and (max-width: 500px) {
-    h1{
-        font-size: 30px;
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    h1 {
+        font-size: 28px;
     }
 
-    h3{
+    h3 {
         font-size: 20px;
     }
-    .text-muted{
+
+    p {
+        font-size: 12px;
+        margin-right: 24px;
+    }
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    h1 {
+        font-size: 29px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    p {
+        font-size: 12px;
+        margin-right: 24px;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    h1 {
+        font-size: 31px;
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+
+    p {
         font-size: 14px;
+        margin-right: 24px;
     }
 }
 
-/* For large*/
-@media only screen and (min-width:501px) and (max-width: 1000px) {
-    h1{
-        font-size: 35px;
-    }
 
-    h3{
-        font-size: 25px;
-    }
-    .text-muted{
-        font-size: 16px;
-    }
-}
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {}
 
-/* for x-large */
-@media only screen and (min-width:1001px) and (max-width: 2000px) {}
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {}
+
+
+/* For x-x-Large*/
+@media only screen and (min-width:1700px) and (max-width: 2200px) {}
