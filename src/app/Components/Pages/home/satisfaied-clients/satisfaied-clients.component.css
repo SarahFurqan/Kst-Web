@@ -1,13 +1,22 @@
 .card {
     background-color: #F2F2F2;
     border: none;
-     
 
 }
 
+.card:hover {
+    background-color: #5EBE80 !important;
+    color: #F2F2F2 !important;
+    background-size: 100% 100%;
+    transition: .3s;
+    cursor: pointer;
+}
+
 .text-center {
-    font-family: outfit;
-    font-weight: 550px;
+    font-weight: 550;
+    font-size: 40px;
+    line-height: 46px;
+    color: #000000;
 
 }
 
@@ -16,18 +25,76 @@
 
 }
 
+.rating {
+    color: #F2C94C;
+}
 
-/* For Mobile*/
-@media only screen and (min-width:100px) and (max-width: 768px) {
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
     .card {
-        margin-top: 30px;
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .rating {
+
+        font-size: 12px;
     }
 }
 
 
-/* For Tablet*/
-@media only screen and (min-width:501px) and (max-width: 1000px) {}
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    .card {
+        margin-top: 20px;
+
+    }
+}
 
 
-/* For Large Screen*/
-@media only screen and (min-width:1001px) and (max-width: 2000px) {}
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    .card {
+        margin-top: 20px;
+
+    }
+
+
+}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {
+    .card {
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .rating {
+
+        font-size: 12px;
+        margin-left: 50px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {}
+
+
+/* For x-x-Large*/
+@media only screen and (min-width:1700px) and (max-width: 2200px) {}
