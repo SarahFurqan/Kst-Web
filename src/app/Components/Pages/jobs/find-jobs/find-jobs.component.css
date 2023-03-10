@@ -43,14 +43,14 @@
 /* For small */
 @media only screen and (min-width:401px) and (max-width: 576px) {
     .input-group {
-        margin: auto !important;
+        /* margin: auto !important; */
         align-items: center !important;
         width: 450px;
 
     }
 
     .form-control {
-        margin: auto !important;
+        /* margin: auto !important; */
         align-items: center !important;
     }
 
@@ -84,7 +84,7 @@
 
 
 /* For Large*/
-@media only screen and (min-width:769px) and (max-width: 1039px) {
+@media only screen and (min-width:768px) and (max-width: 1039px) {
     .input-group {
         /* margin: auto !important; */
         align-items: center !important;
@@ -105,23 +105,51 @@
 }
 
 
-/* For x-Large*/
-@media only screen and (min-width:1040px) and (max-width: 1700px) {
-    .input-group {
-        /* margin: auto !important; */
-        align-items: center !important;
-        width: 290px;
 
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1274px) {
+    .input-group {
+
+        width: 260px;
     }
 
-    .form-control {
+    .form-control {}
+
+    .btn-primary {
         /* margin: auto !important; */
+        display: flex !important;
         align-items: center !important;
+        margin-left: 240px;
+    }
+}
+
+@media only screen and (min-width:1275px) and (max-width: 1600px) {
+    .input-group {
+
+        width: 320px;
     }
 
     .btn-primary {
-        margin: auto !important;
+        /* margin: auto !important; */
         display: flex !important;
         align-items: center !important;
+        margin-left: 240px;
     }
+}
+
+/* For x-x-Large*/
+@media only screen and (min-width:1601px) and (max-width: 2000px) {
+
+    .input-group {
+
+        width: 390px;
+    }
+
+    .btn-primary {
+        /* margin: auto !important; */
+        display: flex !important;
+        align-items: center !important;
+        margin-left: 260px;
+    }
+
 }
