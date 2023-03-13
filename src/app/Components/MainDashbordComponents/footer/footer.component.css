@@ -1,7 +1,6 @@
 footer {
     width: 100%;
     /* padding: 19px; */
-    margin: 1px;
     background-image: url(../../../../assets/Footer-images/FooterImage.jpg);
 }
 
@@ -36,11 +35,12 @@ footer {
     width: 25px;
 }
 
+/* Blue Container */
 .container-fluid {
-    /* background-color: var(--secondary-color); */
+    background-color: var(--secondary-color);
 }
 
-.text {
+.text-center {
     color: white;
 
 }
@@ -48,36 +48,6 @@ footer {
 .text-end a {
     color: white;
     text-decoration: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-/* .row {
-    background-color: var(--secondary-color);
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    padding: 0px;
-} */
-.footer {
-    height: 30px !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.copyright {
-    margin-top: 10px;
-}
-
-.footer-link {
-    margin-bottom: 10px;
-    float: right !important;
-}
-
-.footer-link a {
-    padding: 0 !important;
-    margin: 0 !important;
 }
 
 /* For x-small */
@@ -100,20 +70,16 @@ footer {
 
     .text-end a {
         font-size: 10px;
-
+        margin-bottom: 50px !important;
     }
 
     p {
-        /* line-height: normal !important;
-        display: inline-block !important;
-        vertical-align: middle !important; */
         font-size: 10px;
-        /* position: absolute !important; */
+        position: absolute !important;
         justify-content: center !important;
     }
 
 }
-
 
 /* For small */
 @media only screen and (min-width:401px) and (max-width: 576px) {

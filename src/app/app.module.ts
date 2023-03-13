@@ -49,6 +49,7 @@ import { LandingPageContactUsComponent } from './Components/Pages/contact-us/lan
 import { ContactUsFormPageComponent } from './Components/Pages/contact-us/contact-us-form-page/contact-us-form-page.component';
 import { PrivacyPolicyComponent } from './Components/Pages/privacy-policy/privacy-policy.component';
 import { HttpClientModule } from '@angular/common/http';
+import { UnderConsComponent } from './Components/Pages/under-cons/under-cons.component';
 
 
 
@@ -96,7 +97,8 @@ import { HttpClientModule } from '@angular/common/http';
     CardsPageComponent,
     LandingPageContactUsComponent,
     ContactUsFormPageComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
+    UnderConsComponent
   ],
   imports: [
     BrowserModule,
