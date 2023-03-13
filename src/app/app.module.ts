@@ -50,6 +50,7 @@ import { ContactUsFormPageComponent } from './Components/Pages/contact-us/contac
 import { PrivacyPolicyComponent } from './Components/Pages/privacy-policy/privacy-policy.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UnderConsComponent } from './Components/Pages/under-cons/under-cons.component';
+import { JobsPageComponent } from './Components/AuthForms/jobs-page/jobs-page.component';
 
 
 
@@ -98,7 +99,8 @@ import { UnderConsComponent } from './Components/Pages/under-cons/under-cons.com
     LandingPageContactUsComponent,
     ContactUsFormPageComponent,
     PrivacyPolicyComponent,
-    UnderConsComponent
+    UnderConsComponent,
+    JobsPageComponent
   ],
   imports: [
     BrowserModule,

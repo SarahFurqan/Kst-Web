@@ -2,6 +2,7 @@ footer {
     width: 100%;
     /* padding: 19px; */
     background-image: url(../../../../assets/Footer-images/FooterImage.jpg);
+    overflow: hidden !important;
 }
 
 .icon {
@@ -38,6 +39,7 @@ footer {
 /* Blue Container */
 .container-fluid {
     background-color: var(--secondary-color);
+    overflow: hidden !important;
 }
 
 .text-center {

@@ -12,19 +12,6 @@
 
 .container-fluid h1 {
     font-weight: 900;
-     
-}
-
-.container-fluid h6 {
-     
-
-}
-
-.card {
-    background: none;
-    border: none;
-    width: 490px;
-    height: 120px;
 
 }
 
@@ -38,7 +25,6 @@
     color: var(--text-color);
     border-radius: 8px;
     border: none;
-     
     width: 13%;
 }
 
@@ -50,7 +36,6 @@
     background-color: rgb(219, 217, 217);
     color: black;
     border-radius: 8px;
-     
     padding: 10px;
     width: 13%;
     margin-left: 15px;

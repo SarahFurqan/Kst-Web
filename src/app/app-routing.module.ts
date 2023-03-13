@@ -11,6 +11,8 @@ import { ContactUsComponent } from './Components/Pages/contact-us/contact-us.com
 import { LogInPageComponent } from './Components/AuthForms/log-in-page/log-in-page.component';
 import { SignUpPageComponent } from './Components/AuthForms/sign-up-page/sign-up-page.component';
 import { UnderConsComponent } from './Components/Pages/under-cons/under-cons.component';
+import { ErrorPageComponent } from './Components/Pages/error-page/error-page.component';
+
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -58,6 +60,10 @@ const routes: Routes = [
   {
     component: UnderConsComponent,
     path: "under-cons"
+  },
+  {
+    component: ErrorPageComponent,
+    path: "error-page"
   },
 ];
 
