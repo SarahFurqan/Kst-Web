@@ -12,10 +12,11 @@ import { LogInPageComponent } from './Components/AuthForms/log-in-page/log-in-pa
 import { SignUpPageComponent } from './Components/AuthForms/sign-up-page/sign-up-page.component';
 import { UnderConsComponent } from './Components/Pages/under-cons/under-cons.component';
 import { ErrorPageComponent } from './Components/Pages/error-page/error-page.component';
+import { JobsPageComponent } from './Components/AuthForms/jobs-page/jobs-page.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'under-cons', pathMatch: 'full' },
   {
     component: HomeComponent,
     path: "home"
@@ -64,6 +65,10 @@ const routes: Routes = [
   {
     component: ErrorPageComponent,
     path: "error-page"
+  },
+  {
+    component: JobsPageComponent,
+    path: "jobs-page"
   },
 ];
 
