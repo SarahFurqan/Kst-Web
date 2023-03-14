@@ -1,6 +1,5 @@
 /* Accordians */
 .accordion-button::after {
-
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -15,7 +14,6 @@
 }
 
 .accordion-body {
-
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
