@@ -1,0 +1,154 @@
+.text {
+    margin-top: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.form-text {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.15px;
+    color: #000000;
+}
+
+.form-group {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.form-control {
+    background-color: #EAEAEA;
+    border: none;
+}
+
+.btn-primary {
+    background: #29416F;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background: #5EBE80;
+    border: none;
+}
+
+
+/* Upload data code */
+
+.col-md-4 {
+
+    width: 300px;
+    height: 260px;
+    border-radius: 8px;
+    background: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.dropzone {
+    width: 300px;
+    height: 120px;
+    border: 1px solid #888888;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer !important;
+}
+
+.upload-icon {
+    margin: 25px 2px 2px 2px;
+}
+
+.upload-input {
+
+    width: 10px;
+    height: 10px;
+    opacity: 0;
+}
+
+.btn-secondary {
+    display: block;
+    width: 300px;
+    height: 40px;
+    background: #29416F;
+    color: #fff;
+    border-radius: 8px;
+    border: 0;
+    font-size: 14px;
+}
+
+.btn-secondary:hover {
+    background: #5EBE80;
+    border: none;
+}
+
+
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    h2 {
+        font-size: 17px;
+    }
+
+    h6 {
+        font-size: 15px !important;
+    }
+
+    .form-group {
+        width: 310px;
+    }
+
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    h2 {
+        font-size: 19px;
+    }
+
+    h6 {
+        font-size: 16px !important;
+    }
+
+    .form-group {
+        width: 320px;
+    }
+
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    h2 {
+        font-size: 22px;
+    }
+
+    h6 {
+        font-size: 18px !important;
+    }
+
+    .form-group {
+        width: 370px;
+    }
+}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {}
+
+
+/* For x-x-Large*/
+@media only screen and (min-width:1700px) and (max-width: 2200px) {}

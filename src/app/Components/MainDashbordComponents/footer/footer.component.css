@@ -1,8 +1,8 @@
 footer {
     width: 100%;
-    padding: 19px;
-    margin: 1px;
+    /* padding: 19px; */
     background-image: url(../../../../assets/Footer-images/FooterImage.jpg);
+    overflow: hidden !important;
 }
 
 .icon {
@@ -36,24 +36,20 @@ footer {
     width: 25px;
 }
 
+/* Blue Container */
 .container-fluid {
     background-color: var(--secondary-color);
-    /* overflow: hidden; */
+    overflow: hidden !important;
 }
 
-.text {
+.text-center {
     color: white;
-    /* margin-top: 16px; */
-    /* padding: 7px; */
 }
 
-.text-end {
+.text-end a {
     color: white;
-    /* margin-top: 16px; */
-    text-align: end !important;
-
+    text-decoration: none !important;
 }
-
 
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
@@ -73,19 +69,18 @@ footer {
         font-size: 15px;
     }
 
-    .container {
-        font-size: 11px;
+    .text-end a {
+        font-size: 10px;
+        margin-bottom: 50px !important;
     }
 
-    .text {
+    p {
         font-size: 10px;
+        position: absolute !important;
+        justify-content: center !important;
     }
 
-    .text-end {
-        font-size: 10px;
-    }
 }
-
 
 /* For small */
 @media only screen and (min-width:401px) and (max-width: 576px) {
@@ -111,10 +106,12 @@ footer {
 
     .text {
         font-size: 11px;
+
     }
 
     .text-end {
         font-size: 11px;
+        color: white !important;
     }
 }
 

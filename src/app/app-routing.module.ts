@@ -10,40 +10,66 @@ import { PrivacyPolicyComponent } from './Components/Pages/privacy-policy/privac
 import { ContactUsComponent } from './Components/Pages/contact-us/contact-us.component';
 import { LogInPageComponent } from './Components/AuthForms/log-in-page/log-in-page.component';
 import { SignUpPageComponent } from './Components/AuthForms/sign-up-page/sign-up-page.component';
+import { UnderConsComponent } from './Components/Pages/under-cons/under-cons.component';
+import { ErrorPageComponent } from './Components/Pages/error-page/error-page.component';
+import { JobsPageComponent } from './Components/AuthForms/jobs-page/jobs-page.component';
+
 
 const routes: Routes = [
-  { path: '',   redirectTo: 'home', pathMatch: 'full' },
-  { component: HomeComponent,
-    path:"home"  
+  { path: '', redirectTo: 'under-cons', pathMatch: 'full' },
+  {
+    component: HomeComponent,
+    path: "home"
   },
-  { component: AboutUsComponent,
+  {
+    component: AboutUsComponent,
     path: 'about'
   },
-  { component: OurServicesComponent,
-    path:"services"  
+  {
+    component: OurServicesComponent,
+    path: "services"
   },
-  { component: BlogNewsComponent,
-    path:"blog&news"  
+  {
+    component: BlogNewsComponent,
+    path: "blog&news"
   },
-  { component: PortfolioComponent,
-    path:"portfolio"  
+  {
+    component: PortfolioComponent,
+    path: "portfolio"
   },
-  { component: PrivacyPolicyComponent,
-    path:"privacy-policy"  
+  {
+    component: PrivacyPolicyComponent,
+    path: "privacy-policy"
   },
-  { component: JobsComponent,
-    path:"jobs"  
+  {
+    component: JobsComponent,
+    path: "jobs"
   },
-  { component: ContactUsComponent,
-    path:"contact"  
+  {
+    component: ContactUsComponent,
+    path: "contact"
   },
-  { component: LogInPageComponent,
+  {
+    component: LogInPageComponent,
     path: 'login'
   },
-  { component: SignUpPageComponent,
+  {
+    component: SignUpPageComponent,
     path: 'signup'
   },
 
+  {
+    component: UnderConsComponent,
+    path: "under-cons"
+  },
+  {
+    component: ErrorPageComponent,
+    path: "error-page"
+  },
+  {
+    component: JobsPageComponent,
+    path: "jobs-page"
+  },
 ];
 
 @NgModule({
