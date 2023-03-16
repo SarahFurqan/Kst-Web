@@ -24,7 +24,6 @@
 }
 
 p {
-
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -32,6 +31,13 @@ p {
     /* number of lines to show */
     line-clamp: 3;
     -webkit-box-orient: vertical;
+}
+
+h2 {
+    margin-top: 10px;
+}
+.img-fluid:hover{
+    background-color: white;
 }
 
 
@@ -60,6 +66,7 @@ p {
 @media only screen and (min-width:401px) and (max-width: 576px) {
     .text-center {
         font-size: 27px;
+        font-weight: 600px;
     }
 
     h2 {
@@ -81,6 +88,7 @@ p {
 @media only screen and (min-width:577px) and (max-width: 768px) {
     .text-center {
         font-size: 29px;
+        font-weight: 600px;
     }
 
     h2 {
@@ -102,6 +110,7 @@ p {
 @media only screen and (min-width:768px) and (max-width: 1039px) {
     .text-center {
         font-size: 27px;
+        font-weight: 600px;
     }
 
     h2 {
@@ -123,6 +132,7 @@ p {
 @media only screen and (min-width:1040px) and (max-width: 1700px) {
     .text-center {
         font-size: 27px;
+        font-weight: 600px;
     }
 
     h2 {

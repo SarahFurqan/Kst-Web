@@ -1,5 +1,4 @@
 h1 {
-
     font-style: normal;
     font-weight: 600;
     font-size: 44px;
@@ -14,7 +13,6 @@ h1 {
 }
 
 .card {
-
     border-radius: 8px;
     width: 27rem;
 }
@@ -48,7 +46,7 @@ h6 {
 
     background: var(--secondary-color);
     border-radius: 8px;
-    margin-left: 48px;
+
 }
 
 .btn-secondary:hover {
@@ -91,7 +89,7 @@ h6 {
         align-items: center !important;
         width: 25rem;
         font-size: 15px;
-        margin-left: 10%;
+        /* margin-left: 10%; */
     }
 
     .btn-secondary {
@@ -124,14 +122,14 @@ h6 {
 /* For Large*/
 @media only screen and (min-width:769px) and (max-width: 827px) {
     h1 {
-        font-size: 31px;
+        font-size: 29px;
     }
 
     .card {
         width: 20rem;
         /* margin-left: 30px; */
         align-items: center !important;
-        margin-top: 20px;
+
     }
 
     .btn-secondary {
@@ -142,11 +140,14 @@ h6 {
 
 
 /* For x-Large*/
-@media only screen and (min-width:828px) and (max-width: 1200px) {
-    .card {
-        width: 22rem;
-        margin-top: 20px !important;
+@media only screen and (min-width:828px) and (max-width: 992px) {
+    h1 {
+        font-size: 30px;
+    }
 
+    .card {
+        width: 20rem;
+        align-items: center !important;
     }
 
     .btn-secondary {
@@ -159,3 +160,27 @@ h6 {
         justify-content: center !important;
     }
 }
+
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+     h1 {
+        font-size: 30px;
+    }
+
+    .card {
+        width: 20rem;
+        align-items: center !important;
+    }
+
+    .btn-secondary {
+        margin: auto !important;
+        display: flex !important;
+    }
+
+    .row {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+/* For x-x-Large*/
+@media only screen and (min-width:1700px) and (max-width: 2200px) {}

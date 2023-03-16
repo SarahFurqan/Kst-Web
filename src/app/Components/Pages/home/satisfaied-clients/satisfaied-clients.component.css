@@ -1,7 +1,6 @@
 .card {
     background-color: #F2F2F2;
     border: none;
-
 }
 
 .card:hover {
@@ -13,20 +12,29 @@
 }
 
 .text-center {
-    font-weight: 550;
-    font-size: 40px;
+    font-weight: 600;
+    font-size: 30px;
     line-height: 46px;
     color: #000000;
-
 }
 
 .text {
     color: #29416F;
-
 }
 
 .rating {
     color: #F2C94C;
+}
+
+p {
+    text-transform: justify !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    /* number of lines to show */
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
 }
 
 /* For x-small */
@@ -54,7 +62,6 @@
 @media only screen and (min-width:401px) and (max-width: 576px) {
     .card {
         margin-top: 20px;
-
     }
 }
 
@@ -63,9 +70,7 @@
 @media only screen and (min-width:577px) and (max-width: 768px) {
     .card {
         margin-top: 20px;
-
     }
-
 
 }
 
