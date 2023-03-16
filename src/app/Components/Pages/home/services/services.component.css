@@ -7,6 +7,7 @@
     transition: .4s;
     border-radius: 8px;
     border-bottom: 10px solid #5EBE80;
+
 }
 
 .card:hover {
@@ -18,13 +19,24 @@
 }
 
 .text-center {
-     
     font-size: 40px;
+    font-weight: 600px;
+}
+
+p {
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 
-/* For Mobile*/
-@media only screen and (min-width:100px) and (max-width: 767px) {
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
     .text-center {
         font-size: 25px;
     }
@@ -34,31 +46,104 @@
     }
 
     .img-fluid {
-        width: 70px;
+        width: 60px;
+        height: 54px;
+    }
+
+    p {
+        font-size: 13px;
     }
 }
 
 
-/* For Tablet*/
-@media only screen and (min-width:768px) and (max-width: 1000px) {
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
     .text-center {
-        font-size: 35px;
+        font-size: 27px;
     }
 
     h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .img-fluid {
-        width: 75px;
+        width: 60px;
+        height: 54px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    .text-center {
+        font-size: 29px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .img-fluid {
+        width: 60px;
         height: 60px;
     }
 
     p {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
 
-/* For Large Screen*/
-@media only screen and (min-width:1001px) and (max-width: 2000px) {}
+/* For Large*/
+@media only screen and (min-width:768px) and (max-width: 1039px) {
+    .text-center {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    .img-fluid {
+        width: 60px;
+        height: 54px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {
+    .text-center {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .img-fluid {
+        width: 60px;
+        height: 54px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
+
+
+/* For x-x-Large*/
+@media only screen and (min-width:1700px) and (max-width: 2200px) {
+    h2 {
+        font-size: 20px;
+    }
+
+}

@@ -9,7 +9,6 @@
     border-bottom: 10px solid #5EBE80;
 
 }
-
 .card:hover {
     background-color: #5EBE80 !important;
     color: #F2F2F2 !important;
@@ -19,7 +18,6 @@
 }
 
 .text-center {
-
     font-size: 40px;
 }
 
