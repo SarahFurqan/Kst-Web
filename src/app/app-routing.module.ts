@@ -16,7 +16,7 @@ import { JobsPageComponent } from './Components/AuthForms/jobs-page/jobs-page.co
 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'under-cons', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   {
     component: HomeComponent,
     path: "home"

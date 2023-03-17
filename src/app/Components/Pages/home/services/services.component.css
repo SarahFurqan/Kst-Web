@@ -10,12 +10,12 @@
 
 }
 
-.card:hover {
+.card:hover{
     background-color: #5EBE80 !important;
     color: #F2F2F2 !important;
     background-size: 100% 100%;
     transition: .4s;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .text-center {
@@ -36,10 +36,10 @@ p {
 h2 {
     margin-top: 10px;
 }
-.img-fluid:hover{
-    background-color: white;
-}
 
+.card:hover img {
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(167deg) brightness(102%) contrast(255%);
+}
 
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
@@ -60,7 +60,6 @@ h2 {
         font-size: 13px;
     }
 }
-
 
 /* For small */
 @media only screen and (min-width:401px) and (max-width: 576px) {

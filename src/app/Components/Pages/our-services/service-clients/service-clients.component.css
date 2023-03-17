@@ -21,6 +21,10 @@
     font-size: 40px;
 }
 
+h2 {
+    margin-top: 10px;
+}
+
 p {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -30,6 +34,11 @@ p {
     line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+
+.card:hover img {
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(167deg) brightness(102%) contrast(255%);
+}
+
 
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
