@@ -9,10 +9,11 @@
 }
 .brand-logos img{
     height: 55px;
+    max-width: 150px;
 }
 
-.jihaan-logo {
-    max-width: 95px;
+/* .logo {
+    max-width: 100px;
 }
 
 .zoey-logo {
@@ -25,10 +26,12 @@
 
 .enmas-logo {
     max-width: 150px;
+} */
+.jihaan-logo {
+    max-width: 95px !important;
 }
-
 .ksd-logo {
-    max-width: 60px;
+    max-width: 60px !important;
 }
 
 .brand-logos .zoey-logo:hover {
@@ -59,6 +62,10 @@
     .container-fluid {
         padding: 15px;
         overflow: hidden;
+    }
+    .brand-logos img{
+        height: 55px;
+        max-width: 150px;
     }
 }
 
