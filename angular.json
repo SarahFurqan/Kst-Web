@@ -20,10 +20,16 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
+
             "assets": [
               "src/assets/HomePage-images",
               "src/assets"
+              
             ],
+            "assets": [
+              "src/Favicon.svg",
+              "src/assets"
+              ],
             "styles": [
               "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "src/styles.css",

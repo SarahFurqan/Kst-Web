@@ -19,6 +19,7 @@ h1 {
     justify-content: center;
 }
 
+/* 
 .btn-primary {
     background-color: var(--secondary-color);
     color: var(--text-color);
@@ -46,7 +47,7 @@ h1 {
     background-color: var(--primary-color);
     color: #F2F2F2;
 
-}
+} */
 
 
 /* For x-small */
@@ -115,6 +116,10 @@ h1 {
 @media only screen and (min-width:577px) and (max-width: 768px) {
     h1 {
         font-size: 23px;
+    }
+
+    h6 {
+        font-size: 14px;
     }
 
     .btn-primary {

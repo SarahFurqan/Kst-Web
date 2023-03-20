@@ -3,6 +3,7 @@ footer {
     /* padding: 19px; */
     background-image: url(../../../../assets/Footer-images/FooterImage.jpg);
     /* overflow: hidden !important; */
+    overflow-x: hidden !important;
 }
 
 .icon {
@@ -39,11 +40,16 @@ footer {
 .container-fluid {
     background-color: var(--secondary-color);
     overflow: hidden !important;
+    overflow-x: hidden;
 }
 
 .text-center {
     color: white;
-    margin-top: 5px;
+    margin-top: 18px;
+}
+
+.row {
+    align-items: center !important;
 }
 
 /* For x-small */

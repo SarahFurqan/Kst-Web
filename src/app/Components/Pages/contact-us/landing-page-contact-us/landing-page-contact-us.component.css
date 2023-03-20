@@ -7,13 +7,13 @@
     background-image: url(../../../../../assets/contactus-images/contact-us-landing.png);
     background-size: cover;
     background-position: center;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 h1 {
     font-weight: 800;
 }
-
+/* 
 .btn-primary {
     background-color: var(--secondary-color);
     color: var(--text-color);
@@ -39,7 +39,7 @@ h1 {
 .btn-secondary:hover {
     background-color: var(--primary-color);
     color: #F2F2F2;
-}
+} */
 
 
 /* For x-small */
@@ -52,7 +52,7 @@ h1 {
         font-size: 12px;
     }
 
-    .btn-primary {
+    /* .btn-primary {
         width: 50px;
         height: 40px;
         margin: 0px !important;
@@ -65,7 +65,7 @@ h1 {
         margin: 0px !important;
         font-size: 10px;
         margin-left: 5px !important;
-    }
+    } */
 
     .container-fluid {
         min-height: 45vh !important;
