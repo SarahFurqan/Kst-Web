@@ -10,12 +10,12 @@
 
 }
 
-.card:hover {
+.card:hover{
     background-color: #5EBE80 !important;
     color: #F2F2F2 !important;
     background-size: 100% 100%;
     transition: .4s;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .text-center {
@@ -24,7 +24,6 @@
 }
 
 p {
-
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -34,6 +33,13 @@ p {
     -webkit-box-orient: vertical;
 }
 
+h2 {
+    margin-top: 10px;
+}
+
+.card:hover img {
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(167deg) brightness(102%) contrast(255%);
+}
 
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
@@ -55,11 +61,11 @@ p {
     }
 }
 
-
 /* For small */
 @media only screen and (min-width:401px) and (max-width: 576px) {
     .text-center {
         font-size: 27px;
+        font-weight: 600px;
     }
 
     h2 {
@@ -81,6 +87,7 @@ p {
 @media only screen and (min-width:577px) and (max-width: 768px) {
     .text-center {
         font-size: 29px;
+        font-weight: 600px;
     }
 
     h2 {
@@ -102,6 +109,7 @@ p {
 @media only screen and (min-width:768px) and (max-width: 1039px) {
     .text-center {
         font-size: 27px;
+        font-weight: 600px;
     }
 
     h2 {
@@ -123,6 +131,7 @@ p {
 @media only screen and (min-width:1040px) and (max-width: 1700px) {
     .text-center {
         font-size: 27px;
+        font-weight: 600px;
     }
 
     h2 {

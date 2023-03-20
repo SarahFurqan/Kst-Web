@@ -4,6 +4,57 @@
     overflow: hidden;
 }
 
+.row {
+    align-items: center;
+}
+.brand-logos img{
+    height: 55px;
+}
+
+.jihaan-logo {
+    max-width: 95px;
+}
+
+.zoey-logo {
+    max-width: 255px;
+}
+
+.palm-villas-logo {
+    max-width: 250px;
+}
+
+.enmas-logo {
+    max-width: 150px;
+}
+
+.ksd-logo {
+    max-width: 60px;
+}
+
+.brand-logos .zoey-logo:hover {
+    filter: invert(13%) sepia(94%) saturate(7466%) hue-rotate(0deg) brightness(94%) contrast(115%);
+}
+
+.brand-logos .jihaan-logo:hover {
+    filter: invert(98%) saturate(766%) brightness(133%) contrast(70%);
+}
+
+.brand-logos .palm-villas-logo:hover {
+    filter: invert(46%) sepia(95%) saturate(346%) hue-rotate(103deg) brightness(97%) contrast(97%);
+}
+
+.brand-logos .enmas-logo:hover {
+    filter: invert(15%) sepia(98%) saturate(3449%) hue-rotate(168deg) brightness(95%) contrast(102%);
+}
+
+.brand-logos .mintage-logo:hover {
+    filter: invert(8%) sepia(12%) saturate(375%) hue-rotate(295deg) brightness(99%) contrast(89%);
+}
+
+.brand-logos .ksd-logo:hover {
+    filter: invert(77%) sepia(46%) saturate(1856%) hue-rotate(1deg) brightness(108%) contrast(104%);
+}
+
 @media (max-width: 575.98px) {
     .container-fluid {
         padding: 15px;

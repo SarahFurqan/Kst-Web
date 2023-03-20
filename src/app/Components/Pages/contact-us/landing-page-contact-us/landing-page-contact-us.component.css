@@ -1,6 +1,6 @@
 .container-fluid {
     width: 100%;
-    min-height: 78vh !important;
+    min-height: 85vh !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,13 +11,7 @@
 }
 
 h1 {
-    font-weight: 900;
-
-}
-
-.row.mt-4 {
-    display: flex;
-    justify-content: center;
+    font-weight: 800;
 }
 
 .btn-primary {
@@ -40,13 +34,11 @@ h1 {
     width: 13%;
     margin-left: 15px;
     border: none !important;
-
 }
 
 .btn-secondary:hover {
     background-color: var(--primary-color);
     color: #F2F2F2;
-
 }
 
 

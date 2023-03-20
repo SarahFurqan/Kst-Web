@@ -3,7 +3,7 @@
     margin-bottom: 40px;
     font-style: normal;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 28px;
     line-height: 46px;
     color: #000000;
 }
@@ -24,9 +24,8 @@
 
 
 .card-text {
-
     font-style: normal;
-    font-weight: 650;
+    font-weight: 600;
     font-size: 19px;
     line-height: 30px;
     color: #000000;

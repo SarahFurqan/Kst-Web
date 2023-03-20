@@ -1,4 +1,4 @@
-.class-text {
+.text-center {
     font-style: normal;
     font-weight: 600;
     font-size: 44px;
@@ -13,6 +13,12 @@
     line-height: 22px;
     letter-spacing: 0.5px;
     text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #29416F;
+    font-size: 17px;
 }
 
 /* For x-small */
