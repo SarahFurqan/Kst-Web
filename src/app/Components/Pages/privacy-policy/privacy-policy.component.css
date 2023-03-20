@@ -1,9 +1,10 @@
 h1 {
     font-style: normal;
-    font-weight: 550;
+    font-weight: 600;
     font-size: 41px;
     line-height: 46px;
-    color: #29416F;
+    /* color: #29416F; */
+    text-align: center !important;
 }
 
 h3 {

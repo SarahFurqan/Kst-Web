@@ -31,12 +31,15 @@ p {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: 4;
     /* number of lines to show */
-    line-clamp: 5;
+    line-clamp: 4;
     -webkit-box-orient: vertical;
 }
 
+/* .ksd-logo{
+    height: 65px;
+} */
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
     .card {
@@ -63,11 +66,18 @@ p {
     .card {
         margin-top: 20px;
     }
+    p {
+        font-size: 13px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
 }
 
 
 /* For medium */
-@media only screen and (min-width:577px) and (max-width: 768px) {
+@media only screen and (min-width:577px) and (max-width: 769px) {
     .card {
         margin-top: 20px;
     }
@@ -85,11 +95,10 @@ p {
         font-size: 13px;
     }
 
-    .rating {
-
+    /* .rating {
         font-size: 12px;
         margin-left: 50px;
-    }
+    } */
 
     .text {
         font-size: 12px;
