@@ -1,4 +1,4 @@
-import { Component, VERSION } from '@angular/core';
+import { Component, isDevMode, VERSION } from '@angular/core';
 
 @Component({
   selector: 'app-root',

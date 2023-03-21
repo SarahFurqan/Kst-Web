@@ -16,6 +16,11 @@
     color: #000000;
 }
 
+.has-error input {
+    border: 1px solid red;
+  }
+  
+
 .form-group {
 
     font-style: normal;
