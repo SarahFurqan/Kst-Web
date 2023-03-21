@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormArray , FormGroup, Validators } from '@angular/forms';
+import { Component} from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { environment } from 'src/environment/environment';
 
 @Component({
   selector: 'app-contact-us-form-page',
@@ -7,47 +9,36 @@ import { FormBuilder, FormArray , FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./contact-us-form-page.component.css']
 })
 export class ContactUsFormPageComponent {
-  exampleForm: FormGroup;
+  form: FormGroup;
   
-  constructor(private formBuilder: FormBuilder) {
-    this.exampleForm = this.formBuilder.group({
+  constructor(private formBuilder: FormBuilder, private http: HttpClient) {
+    this.form = this.formBuilder.group({
       firstname: ['', [Validators.required, Validators.minLength(3)]],
       lastname: ['', [Validators.required, Validators.minLength(3)]],
       email: ['', [Validators.required, Validators.email]],
-      subject: ['', [Validators.required, Validators.minLength(8)]],
-      message: ['', [Validators.required, Validators.minLength(10)]]
+      subject: ['', [Validators.required, Validators.minLength(2)]],
+      message: ['']
     });
   }
 
   onSubmit() {
-    var form = new FormData();
-    console.log(this.exampleForm.value);
-    form.append("first_name", "firstname");
-    form.append("last_name", "lastname");
-    form.append("email", "email");
-    form.append("phone", "023809238");
-    form.append("subject", "subject");
-    form.append("message", "message");
-    // add code to submit form data here
-
-    var settings = {
-      "url": "{{localhost}}/api/contact",
-      "method": "POST",
-      "timeout": 0,
-      "headers": {
-        "Content-Type": "application/json",
-        "Accept": "application/json"
-      },
-      "processData": false,
-      "mimeType": "multipart/form-data",
-      "contentType": false,
-      "data": form
-    };
-    // $.ajax(settings).done(function (response) {
-    //   console.log(response);
-    // });
+    console.log(this.form.value);
+  
+    const formData = new FormData();
+    formData.append("first_name", this.form.value.firstname);
+    formData.append("last_name", this.form.value.lastname);
+    formData.append("email", this.form.value.email);
+    formData.append("subject", this.form.value.subject);
+    formData.append("message", this.form.value.message);
+  
+    const apiUrl = environment.baseUrl+"contact";
+    const headers = new HttpHeaders({
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    });
+    const options = { headers, processData: false, mimeType: "multipart/form-data", contentType: false };
+    this.http.post(apiUrl, formData, options).subscribe(response => {
+      console.log(response);
+    });
   }
-  
-  
-  
 }

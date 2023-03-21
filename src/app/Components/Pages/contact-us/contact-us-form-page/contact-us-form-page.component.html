@@ -8,35 +8,57 @@
                         collaboration, or simply say hello.</div>
                 </div>
             </div>
-
-            <!-- Form Code -->
-            <form [formGroup]="exampleForm" (ngSubmit)="onSubmit()">
+            <form [formGroup]="form" (ngSubmit)="onSubmit()">
                 <div class="offset-1 row mt-4">
                     <div class="col-md-5">
-                        <div class="form-group">
+                        <div class="form-group" [ngClass]="{'has-error': form.get('firstname')?.touched && form.get('firstname')?.invalid}">
                             <label>
                                 Name:
                             </label>
-                            <input type="text" formControlName="firstname" />
+                            <input class="form-control" type="text" formControlName="firstname" />
                             <small class="form-text">First Name</small>
-                            <div *ngIf="exampleForm.get('firstname')?.touched && exampleForm.get('firstname')?.invalid">
-                                <!-- <div *ngIf="exampleForm.get('name')?.errors?.required">Name is required.</div>
-                    <div *ngIf="exampleForm.get('name')?.errors?.minlength">Name must be at least {{ exampleForm.get('name')?.errors?.minlength.requiredLength }} characters long.</div> -->
+                            
+                            <div *ngIf="form.get('firstname')?.touched && form.get('firstname')?.invalid">
+                                <div *ngIf="form.get('firstname')?.errors?.['required']" style="font-size: 10px; color: brown;">*Required</div>
+                    <div *ngIf="form.get('firstname')?.errors?.['minlength']" style="font-size: 10px; color: brown;">*Must be at least {{ form.get('firstname')?.errors?.['minlength'].requiredLength }} characters long.</div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="offset-1 row mt-4">
-                        <div class="col-md-5">
-                            <div class="form-group">
-                                <input type="text" formControlName="lastname" autocomplete="additional-name" />
-                                <small class="form-text">First Name</small>
-                                <div
-                                    *ngIf="exampleForm.get('lastname')?.touched && exampleForm.get('lastname')?.invalid">
-                                    <!-- <div *ngIf="exampleForm.get('name')?.errors?.required">Name is required.</div>
-                      <div *ngIf="exampleForm.get('name')?.errors?.minlength">Name must be at least {{ exampleForm.get('name')?.errors?.minlength.requiredLength }} characters long.</div> -->
-                                </div>
-
+                    <div class="col-md-5">
+                        <div class="form-group" [ngClass]="{'has-error': form.get('lastname')?.touched && form.get('lastname')?.invalid}">
+                            <label></label>
+                            <input type="text" class="form-control" formControlName="lastname">
+                            <small class="form-text">Last Name</small>
+                            <div *ngIf="form.get('lastname')?.touched && form.get('lastname')?.invalid">
+                                <div *ngIf="form.get('lastname')?.errors?.['required']" style="font-size: 10px; color: brown;">*Required</div>
+                      <div *ngIf="form.get('lastname')?.errors?.['minlength'] " style="font-size: 10px; color: brown;">*Must be at least {{ form.get('lastname')?.errors?.['minlength'].requiredLength }} characters long.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-1 row mt-4">
+                    <div class="col-md-10">
+                        <div class="form-group" [ngClass]="{'has-error': form.get('email')?.touched && form.get('email')?.invalid}">
+                            <label>E-mail</label>
+                            <input class="form-control" type="email" formControlName="email" />
+                            <div *ngIf="form.get('email')?.touched && form.get('email')?.invalid">
+                              <div *ngIf="form.get('email')?.errors?.['required']" style="font-size: 10px; color: brown;">*Required</div>
+                              <div *ngIf="form.get('email')?.errors?.['email']" style="font-size: 10px; color: brown;">*Invalid email format.</div>
+                            </div>
+                          </div>
+                          
+                    </div>
+                </div>
+                <div class="offset-1 row mt-4">
+                    <div class="col-md-10">
+                        <div class="form-group" [ngClass]="{'has-error': form.get('subject')?.touched && form.get('subject')?.invalid}">
+                            <label>
+                                Subject
+                            </label>
+                            <input class="form-control" type="text" formControlName="subject" />
+                            <div *ngIf="form.get('subject')?.touched && form.get('subject')?.invalid">
+                                <div *ngIf="form.get('subject')?.errors?.['required']" style="font-size: 10px; color: brown;">*Required</div>
+                                <div *ngIf="form.get('subject')?.errors?.['minlength']" style="font-size: 10px; color: brown;">*Must be at least {{ form.get('subject')?.errors?.['minlength'].requiredLength }} characters long.</div>
                             </div>
                         </div>
                     </div>
@@ -44,80 +66,24 @@
                 <div class="offset-1 row mt-4">
                     <div class="col-md-10">
                         <div class="form-group">
-                            <label>
-                                Email:
-                                <input type="email" formControlName="email" />
-                            </label>
-                            <div *ngIf="exampleForm.get('email')?.touched && exampleForm.get('email')?.invalid">
-                                <!-- <div *ngIf="exampleForm.get('email').errors.required">Email is required.</div> -->
-                                <!-- <div *ngIf="exampleForm.get('email').errors.email">Invalid email format.</div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="offset-1 row mt-4">
-                    <div class="col-md-10">
-                        <div class="form-group">
-                            <label>
-                                Subject:
-                                <input type="text" formControlName="subject" />
-                            </label>
-                            <div *ngIf="exampleForm.get('subject')?.touched && exampleForm.get('subject')?.invalid">
-                                <!-- <div *ngIf="exampleForm.get('email').errors.required">Email is required.</div> -->
-                                <!-- <div *ngIf="exampleForm.get('email').errors.email">Invalid email format.</div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="offset-1 row mt-4">
-                    <div class="col-md-10">
-                        <div class="form-group">
-                            <label>
-                                Message:
-                                <input type="text" formControlName="message" />
-                            </label>
-                            <div *ngIf="exampleForm.get('message')?.touched && exampleForm.get('message')?.invalid">
-                                <!-- <div *ngIf="exampleForm.get('email').errors.required">Email is required.</div> -->
-                                <!-- <div *ngIf="exampleForm.get('email').errors.email">Invalid email format.</div> -->
-                            </div>
+                            <label>Message</label>
+                            <textarea type="text" class="form-control" formControlName="message"></textarea>
                         </div>
                     </div>
                 </div>
                 <div class="offset-1 row mt-4">
                     <div class="col">
-                        <button type="submit" [disabled]="exampleForm.invalid || exampleForm.pristine">Submit</button>
+                        <button type="submit" class="btn btn-primary"
+                            [disabled]="form.invalid || form.pristine">Submit</button>
                     </div>
                 </div>
-                        
-                    
             </form>
         </div>
     </div>
-    <!-- Map  -->
-    <div class="offset-1 col-md-4">
-        <div class="card second" style="width:500px;">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115681.29592731265!2d-77.47713270775661!3d25.0326996781907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x892f7c99b981dbc9%3A0x2aef01d3485e50d2!2sNassau%2C%20Bahamy!5e0!3m2!1spl!2spl!4v1624445118063!5m2!1spl!2spl"
-                class="w-50" height="400" loading="lazy"></iframe>
-        </div>
+    <div class="col-md-4">
+        <div class="card second" style="width: 500px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.3978200722726!2d74.18240961561653!3d31.373147058250497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3918ff4f2f9ddbbf%3A0xb8a551d63acbc691!2sPalm%20Tower!5e0!3m2!1sen!2sus!4v1653292962159!5m2!1sen!2sus" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>          
     </div>
 </div>
-
-<!-- Info Area -->
-<!-- <div class="row mt-4">
-    <div class="offset-1 col-md-2">
-        <h4>Email</h4>
-    </div>
-    <div class="offset-1 col-md-2">
-        <h4>info@ks-technologies.net</h4>
-    </div>
-</div>
-<div class="row mt-4">
-
-    <div class="offset-1 col-md-2">
-        <h4>Number</h4>
-    </div>
-    <div class="offset-1 col-md-2">
-        <h4>(042) 37862807</h4>
-    </div>
-</div> -->
