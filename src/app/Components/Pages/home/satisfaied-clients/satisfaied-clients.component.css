@@ -66,6 +66,7 @@ p {
     .card {
         margin-top: 20px;
     }
+
     p {
         font-size: 13px;
     }
@@ -82,13 +83,17 @@ p {
         margin-top: 20px;
     }
 
+    .text {
+        font-size: 15px;
+    }
 }
 
 
 /* For Large*/
-@media only screen and (min-width:769px) and (max-width: 1039px) {
+@media only screen and (min-width:768px) and (max-width: 992px) {
     .card {
         margin-top: 20px;
+
     }
 
     p {
@@ -101,14 +106,44 @@ p {
     } */
 
     .text {
-        font-size: 12px;
+        font-size: 11px;
+    }
+
+    .zoey-logo {
+        height: 80px;
     }
 }
 
 
 /* For x-Large*/
-@media only screen and (min-width:1040px) and (max-width: 1700px) {}
+@media only screen and (min-width:992px) and (max-width: 1400px) {
+    .card {
+        margin-top: 20px;
+
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    /* .rating {
+        font-size: 12px;
+        margin-left: 50px;
+    } */
+
+    .text {
+        font-size: 11px;
+    }
+
+    .zoey-logo {
+        height: 60px;
+    }
+}
 
 
 /* For x-x-Large*/
-@media only screen and (min-width:1700px) and (max-width: 2200px) {}
+@media only screen and (min-width:1401px) and (max-width: 2200px) {
+    .zoey-logo {
+        height: 60px;
+    }
+}
