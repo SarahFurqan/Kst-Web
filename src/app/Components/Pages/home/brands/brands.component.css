@@ -7,9 +7,11 @@
 .row {
     align-items: center;
 }
-.brand-logos img{
+
+.brand-logos img {
     height: 55px;
     max-width: 150px;
+    cursor: pointer;
 }
 
 /* .logo {
@@ -58,7 +60,7 @@
     filter: invert(77%) sepia(46%) saturate(1856%) hue-rotate(1deg) brightness(108%) contrast(104%);
 }
 
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     .container-fluid {
         padding: 15px;
         overflow: hidden;
@@ -88,4 +90,49 @@
         padding: 30px;
         overflow: hidden;
     }
+} */
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+
+    .zoey-logo {
+        max-width: 170px;
+        height: 40px;
+    }
+
+    .jihaan-logo {
+        max-width: 85px;
+    }
+
+    .palm-villas-logo {
+        max-width: 180px;
+    }
+
+    .enmas-logo {
+        max-width: 130px;
+    }
+
+    .ksd-logo {
+        max-width: 60px;
+    }
 }
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {}
+
+
+/* For x-x-Large*/
+@media only screen and (min-width:1700px) and (max-width: 2200px) {}
