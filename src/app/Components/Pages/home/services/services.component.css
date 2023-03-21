@@ -19,8 +19,10 @@
 }
 
 .text-center {
-    font-size: 40px;
-    font-weight: 600px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46px;
+    color: #000000;
 }
 
 p {
