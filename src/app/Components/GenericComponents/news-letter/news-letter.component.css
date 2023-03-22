@@ -8,6 +8,10 @@
     color: var(--primary-color);
     margin-top: 50px;
 }
+.is-invalid {
+    border-color: #dc3545;
+    color: #dc3545;
+}
 
 .row .col {
     height: 46px;

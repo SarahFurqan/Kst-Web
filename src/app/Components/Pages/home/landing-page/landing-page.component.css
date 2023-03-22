@@ -20,43 +20,6 @@ h2 {
     font-weight: 500 !important;
 }
 
-.row.mt-4 {
-    /* display: flex;
-    justify-content: center; */
-}
-
-/* 
-.btn-primary {
-    background-color: var(--secondary-color);
-    color: var(--text-color);
-    border-radius: 8px;
-    border: none;
-    width: 13%;
-}
-
-.btn-primary:hover {
-    background-color: var(--primary-color);
-}
-
-.btn-secondary {
-    background-color: rgb(219, 217, 217);
-    color: black;
-    border-radius: 8px;
-    padding: 10px;
-    width: 13%;
-    margin-left: 55px;
-    border: none !important;
-
-}
-
-.btn-secondary:hover {
-    background-color: #29416F;
-    color: #F2F2F2;
-}
-
-.btn-secondary:onclick {} */
-
-/* For Mobile*/
 @media only screen and (min-width:100px) and (max-width: 500px) {
     .container-fluid {
         width: 100%;
@@ -71,20 +34,6 @@ h2 {
         font-size: 10px;
     }
 
-    /* .btn-primary {
-        width: 20%;
-        margin: 0px !important;
-        font-size: 10px;
-        height: 39px;
-    }
-
-    .btn-secondary {
-        width: 20%;
-        margin: 0px !important;
-        font-size: 10px;
-        margin-left: 5px !important;
-        height: 39px;
-    } */
 }
 
 /* For Tablet*/
@@ -96,25 +45,12 @@ h2 {
 
     }
 
-    .btn-primary {
-        width: 20%;
-        margin: 0px !important;
-        font-size: 12px;
-    }
-
-    .btn-secondary {
-        width: 20%;
-        margin: 0px !important;
-        font-size: 12px;
-        margin-left: 5px !important;
-    }
 }
 
 /* For Large Screen*/
 @media only screen and (min-width:1001px) and (max-width: 2000px) {
     .container-fluid {
         width: 100%;
-        /* height: 50vh; */
         padding: 30px;
 
     }
@@ -122,19 +58,6 @@ h2 {
     .container-fluid h1 {
         font-size: 32px;
     }
-
-    /* .btn-primary {
-        width: 20%;
-        margin: 0px !important;
-        font-size: 15px;
-    }
-
-    .btn-secondary {
-        width: 20%;
-        margin: 0px !important;
-        font-size: 15px;
-        margin-left: 8px !important;
-    } */
 }
 
 /* For x-Large Screen*/
@@ -143,7 +66,6 @@ h2 {
         width: 100%;
         height: 50vh;
         padding: 30px;
-
     }
 }
 

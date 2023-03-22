@@ -12,12 +12,22 @@
     <div class="row mt-4">
         <div class="col-md-8 mt-4">
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="demo@example.com"
-                    aria-label="Recipient's username">
-                <button class="btn btn-primary" type="button">Subscribe</button>
+                <input type="email" class="form-control" placeholder="demo@example.com"
+                    aria-label="Recipient's username" [(ngModel)]="email" name="email" required #emailInput="ngModel"
+                    email [ngClass]="{'is-invalid': emailInput.invalid && (emailInput.dirty || emailInput.touched)}">
+                <div *ngIf="emailInput.invalid && (emailInput.dirty || emailInput.touched)">
+                    <div *ngIf="emailInput?.errors?.['required']">
+                    </div>
+                    <div *ngIf="emailInput?.errors?.['email']">
+                       
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="button" [disabled]="emailInput.invalid"
+                    (click)="subscribe()">Subscribe</button>
+
             </div>
         </div>
     </div>
-    <br/>
-    <br/>
+    <br />
+    <br />
 </div>

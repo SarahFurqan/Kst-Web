@@ -2,6 +2,7 @@ import { Component} from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { environment } from 'src/environment/environment';
+import { first } from 'rxjs';
 
 @Component({
   selector: 'app-contact-us-form-page',
@@ -28,9 +29,9 @@ export class ContactUsFormPageComponent {
     formData.append("first_name", this.form.value.firstname);
     formData.append("last_name", this.form.value.lastname);
     formData.append("email", this.form.value.email);
-    formData.append("subject", this.form.value.subject);
+    formData.append("subject", this.form.value.subject);  
     formData.append("message", this.form.value.message);
-  
+    this.form.reset();
     const apiUrl = environment.baseUrl+"contact";
     const headers = new HttpHeaders({
       "Content-Type": "application/json",
@@ -39,6 +40,7 @@ export class ContactUsFormPageComponent {
     const options = { headers, processData: false, mimeType: "multipart/form-data", contentType: false };
     this.http.post(apiUrl, formData, options).subscribe(response => {
       console.log(response);
+      this.form.reset();
     });
   }
 }
