@@ -1,8 +1,18 @@
-import { Component} from '@angular/core';
+import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { environment } from 'src/environment/environment';
-import { first } from 'rxjs';
+import { catchError } from 'rxjs/operators';
+import { throwError } from 'rxjs';
+import { ToastrService } from 'ngx-toastr';
+interface ContactFormData {
+  first_name: string;
+  last_name: string;
+  email: string;
+  phone: string;
+  subject: string;
+  message: string;
+}
 
 @Component({
   selector: 'app-contact-us-form-page',
@@ -11,36 +21,52 @@ import { first } from 'rxjs';
 })
 export class ContactUsFormPageComponent {
   form: FormGroup;
-  
-  constructor(private formBuilder: FormBuilder, private http: HttpClient) {
+  message!: string;
+  constructor(private formBuilder: FormBuilder, private http: HttpClient, private toastr: ToastrService) {
     this.form = this.formBuilder.group({
       firstname: ['', [Validators.required, Validators.minLength(3)]],
       lastname: ['', [Validators.required, Validators.minLength(3)]],
       email: ['', [Validators.required, Validators.email]],
+      phone: ['', [Validators.required, Validators.pattern('^[0-9]{11}$')]],
       subject: ['', [Validators.required, Validators.minLength(2)]],
-      message: ['']
+      message: ['', [Validators.required, Validators.minLength(3)]]
     });
   }
 
   onSubmit() {
-    console.log(this.form.value);
-  
-    const formData = new FormData();
-    formData.append("first_name", this.form.value.firstname);
-    formData.append("last_name", this.form.value.lastname);
-    formData.append("email", this.form.value.email);
-    formData.append("subject", this.form.value.subject);  
-    formData.append("message", this.form.value.message);
-    this.form.reset();
-    const apiUrl = environment.baseUrl+"contact";
+    const formData: ContactFormData = {
+      first_name: this.form.value.firstname,
+      last_name: this.form.value.lastname,
+      email: this.form.value.email,
+      phone: this.form.value.phone,
+      subject: this.form.value.subject,
+      message: this.form.value.message
+    };
+
+    const apiUrl = environment.baseUrl + "contact";
     const headers = new HttpHeaders({
       "Content-Type": "application/json",
-      "Accept": "application/json"
+      "Access-Control-Allow-Origin": "*"
     });
-    const options = { headers, processData: false, mimeType: "multipart/form-data", contentType: false };
-    this.http.post(apiUrl, formData, options).subscribe(response => {
+    const options = { headers };
+    
+
+    this.http.post(apiUrl, formData, options).pipe(
+      catchError(error => {
+        console.error(error);
+        return throwError("An error occurred while sending the form data.");
+      })
+    ).subscribe(response => {
       console.log(response);
+      this.toastr.success('Form submitted successfully!');
+      this.message = 'Thank you for submitting the query. We will contact you shorlty.';
       this.form.reset();
+    }, error => {
+      console.error(error);
+      this.toastr.error('An error occurred while sending the form data.');
+      this.message = 'An error occurred while sending the form data.';
     });
+
+
   }
 }
