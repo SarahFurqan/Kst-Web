@@ -32,6 +32,7 @@
 .jihaan-logo {
     max-width: 95px !important;
 }
+
 .ksd-logo {
     max-width: 60px !important;
 }
@@ -96,43 +97,274 @@
 @media only screen and (min-width:200px) and (max-width:400px) {
 
     .zoey-logo {
-        max-width: 170px;
-        height: 40px;
+        /* max-width: 170px;
+        height: 40px; */
+        /* max-width: 100% !important;
+        height: auto !important; */
     }
 
     .jihaan-logo {
-        max-width: 85px;
+        /* max-width: 85px; */
+        /* max-width: 100% !important;
+        height: auto !important; */
+        margin-left: 30px;
+        margin-top: 25px;
     }
 
     .palm-villas-logo {
+        /* margin-top: 15px;
         max-width: 180px;
+        height: 80px; */
+        /* max-width: 100% !important;
+        height: auto !important; */
+        margin-top: 25px;
+        margin-left: 20px;
     }
 
     .enmas-logo {
-        max-width: 130px;
+        /* max-width: 130px;
+        margin-top: 15px; */
+        /* max-width: 100% !important;
+        height: auto !important; */
+        margin-top: 25px;
+        margin-left: 20px;
     }
 
     .ksd-logo {
-        max-width: 60px;
+        /* max-width: 60px;
+        margin-top: 15px; */
+        /* max-width: 100% !important;
+        height: auto !important;
+        margin-right: 10px !important; */
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+
+    .mintage-logo {
+        /* max-width: 100% !important;
+        height: auto !important; */
+        margin-top: 25px;
+        margin-left: 20px;
     }
 }
 
 
 /* For small */
-@media only screen and (min-width:401px) and (max-width: 576px) {}
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    .zoey-logo {
+        /* max-width: 170px;
+        height: 40px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .jihaan-logo {
+        /* max-width: 85px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .palm-villas-logo {
+        /* margin-top: 15px;
+        max-width: 180px;
+        height: 80px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .enmas-logo {
+        /* max-width: 130px;
+        margin-top: 15px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .ksd-logo {
+        /* max-width: 60px;
+        margin-top: 15px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .mintage-logo {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
 
 
 /* For medium */
-@media only screen and (min-width:577px) and (max-width: 768px) {}
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    .zoey-logo {
+        /* max-width: 170px;
+        height: 40px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .jihaan-logo {
+        /* max-width: 85px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .palm-villas-logo {
+        /* margin-top: 15px;
+        max-width: 180px;
+        height: 80px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .enmas-logo {
+        /* max-width: 130px;
+        margin-top: 15px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .ksd-logo {
+        /* max-width: 60px;
+        margin-top: 15px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .mintage-logo {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
 
 
 /* For Large*/
-@media only screen and (min-width:769px) and (max-width: 1039px) {}
+@media only screen and (min-width:769px) and (max-width: 1039px) {
+    .zoey-logo {
+        /* max-width: 170px;
+        height: 40px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .jihaan-logo {
+        /* max-width: 85px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .palm-villas-logo {
+        /* margin-top: 15px;
+        max-width: 180px;
+        height: 80px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .enmas-logo {
+        /* max-width: 130px;
+        margin-top: 15px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .ksd-logo {
+        /* max-width: 60px;
+        margin-top: 15px; */
+        max-width: 100% !important;
+        height: auto !important;
+        margin-right: 10px !important;
+    }
+
+    .mintage-logo {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
 
 
 /* For x-Large*/
-@media only screen and (min-width:1040px) and (max-width: 1700px) {}
+@media only screen and (min-width:1040px) and (max-width: 1700px) {
+    .zoey-logo {
+        /* max-width: 170px;
+        height: 40px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .jihaan-logo {
+        /* max-width: 85px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .palm-villas-logo {
+        /* margin-top: 15px;
+        max-width: 180px;
+        height: 80px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .enmas-logo {
+        /* max-width: 130px;
+        margin-top: 15px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .ksd-logo {
+        /* max-width: 60px;
+        margin-top: 15px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .mintage-logo {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
 
 
 /* For x-x-Large*/
-@media only screen and (min-width:1700px) and (max-width: 2200px) {}
+@media only screen and (min-width:1700px) and (max-width: 2200px) {
+    .zoey-logo {
+        /* max-width: 170px;
+        height: 40px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .jihaan-logo {
+        /* max-width: 85px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .palm-villas-logo {
+        /* margin-top: 15px;
+        max-width: 180px;
+        height: 80px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .enmas-logo {
+        /* max-width: 130px;
+        margin-top: 15px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .ksd-logo {
+        /* max-width: 60px;
+        margin-top: 15px; */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .mintage-logo {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
