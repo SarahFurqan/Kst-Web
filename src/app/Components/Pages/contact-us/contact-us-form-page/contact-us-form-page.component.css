@@ -18,8 +18,8 @@
 
 .has-error input {
     border: 1px solid red;
-  }
-  
+}
+
 
 .form-group {
 
@@ -69,8 +69,14 @@
     .form-group {
         width: 250px;
     }
-    h4{
+
+    h4 {
         font-size: 14px;
+    }
+
+    .card.second {
+        margin-left: 60px;
+        width: 220px;
     }
 }
 
@@ -82,6 +88,11 @@
     }
 
     .form-group {
+        width: 360px;
+    }
+
+    .card.second {
+        margin-left: 60px;
         width: 360px;
     }
 }
@@ -96,17 +107,46 @@
     .form-group {
         width: 550px;
     }
+
+    .card.second {
+        margin-left: 60px;
+    }
 }
 
+@media only screen and (min-width:768px) and (max-width: 830px) {
+    .card.second {
+        margin-left: 190px !important;
+        width: 300px !important;
+    }
+}
 
 /* For Large*/
-@media only screen and (min-width:769px) and (max-width: 1039px) {
+@media only screen and (min-width:768px) and (max-width: 1039px) {
     .card.second {
-        margin-left: 170px;
+        margin-left: 180px;
+        width: 320px !important;
     }
-    
 }
 
 
 /* For x-Large*/
-@media only screen and (min-width:1040px) and (max-width: 1700px) {}
+@media only screen and (min-width:1040px) and (max-width: 1300px) {
+    .card.second {
+        margin-left: 180px;
+        width: 350px !important;
+    }
+}
+
+@media only screen and (min-width:1300px) and (max-width: 1500px) {
+    .card.second {
+        margin-left: 150px;
+        width: 460px !important;
+    }
+}
+
+@media only screen and (min-width:1500px) and (max-width: 1900px) {
+    .card.second {
+        margin-left: 140px;
+        width: 560px !important;
+    }
+}
