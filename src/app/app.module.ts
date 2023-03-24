@@ -51,7 +51,7 @@ import { PrivacyPolicyComponent } from './Components/Pages/privacy-policy/privac
 import { HttpClientModule } from '@angular/common/http';
 import { UnderConsComponent } from './Components/Pages/under-cons/under-cons.component';
 import { JobsPageComponent } from './Components/AuthForms/jobs-page/jobs-page.component';
-import { ToastrModule, ToastrService } from 'ngx-toastr';
+import { ToastrModule } from 'ngx-toastr';
 
 
 @NgModule({
