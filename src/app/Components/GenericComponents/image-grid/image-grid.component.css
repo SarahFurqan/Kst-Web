@@ -1,14 +1,6 @@
-/* Load More Button  */
-.btn-secondary {
-    background: var(--secondary-color);
-    border-radius: 8px;
-    margin-left: 48px;
-    margin-bottom: 29px;
-}
-
-.btn-secondary:hover {
-    background-color: #5EBE80;
-    border: none;
+.img-fluid{
+ width: 100%;
+ height: fit-content;
 }
 
 p {
@@ -18,91 +10,36 @@ p {
     color: #000000;
 }
 
-/* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
-    .btn-secondary {
-        margin: auto !important;
-        justify-content: center !important;
-        align-items: center !important;
-        text-align: center !important;
-        display: flex !important;
-        width: 55px;
-        height: 36px;
-        font-size: 10px;
-    }
-
+    
     p {
         font-size: 15px;
     }
 }
 
-
-/* For small */
 @media only screen and (min-width:401px) and (max-width: 576px) {
-    .btn-secondary {
-        margin: auto !important;
-        justify-content: center !important;
-        align-items: center !important;
-        text-align: center !important;
-        display: flex !important;
-        width: 65px;
-        height: 42px;
-        font-size: 13px;
-    }
-
+    
     p {
         font-size: 19px;
     }
 }
 
-/* For medium */
 @media only screen and (min-width:577px) and (max-width: 768px) {
-    .btn-secondary {
-        margin: auto !important;
-        justify-content: center !important;
-        align-items: center !important;
-        text-align: center !important;
-        display: flex !important;
-        width: 75px;
-        height: 49px;
-        font-size: 15px;
-    }
-
+    
     p {
         font-size: 23px;
     }
 }
 
-
-/* For Large*/
 @media only screen and (min-width:769px) and (max-width: 1039px) {
-    .btn-secondary {
-        margin: auto !important;
-        align-items: center !important;
-        display: flex !important;
-        width: 85px;
-        height: 55px;
-        font-size: 16px;
-    }
 
     .row.mt-4 {
         justify-content: center !important;
     }
 }
 
-
-/* For x-Large*/
 @media only screen and (min-width:1040px) and (max-width: 1700px) {
-    .btn-secondary {
-        margin: auto !important;
-        align-items: center !important;
-        justify-content: center !important;
-        display: flex !important;
-        width: 85px;
-        height: 55px;
-        font-size: 16px;
-    }
-
+    
     .row.mt-4 {
         justify-content: center !important;
     }

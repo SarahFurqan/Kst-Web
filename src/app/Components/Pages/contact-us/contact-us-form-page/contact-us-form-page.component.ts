@@ -22,12 +22,13 @@ interface ContactFormData {
 export class ContactUsFormPageComponent {
   form: FormGroup;
   message!: string;
+  Errormessage!: string;
   constructor(private formBuilder: FormBuilder, private http: HttpClient, private toastr: ToastrService) {
     this.form = this.formBuilder.group({
       firstname: ['', [Validators.required, Validators.minLength(3)]],
       lastname: ['', [Validators.required, Validators.minLength(3)]],
       email: ['', [Validators.required, Validators.email]],
-      phone: ['', [Validators.required, Validators.pattern('^[0-9]{11}$')]],
+      phone: ['', [Validators.required, Validators.pattern('^03[0-9]{2}-[0-9]{7}$')]],
       subject: ['', [Validators.required, Validators.minLength(2)]],
       message: ['', [Validators.required, Validators.minLength(3)]]
     });
@@ -42,31 +43,21 @@ export class ContactUsFormPageComponent {
       subject: this.form.value.subject,
       message: this.form.value.message
     };
-
     const apiUrl = environment.baseUrl + "contact";
     const headers = new HttpHeaders({
       "Content-Type": "application/json",
       "Access-Control-Allow-Origin": "*"
     });
     const options = { headers };
-    
-
     this.http.post(apiUrl, formData, options).pipe(
       catchError(error => {
-        console.error(error);
         return throwError("An error occurred while sending the form data.");
       })
     ).subscribe(response => {
-      console.log(response);
-      this.toastr.success('Form submitted successfully!');
       this.message = 'Thank you for submitting the query. We will contact you shorlty.';
       this.form.reset();
     }, error => {
-      console.error(error);
-      this.toastr.error('An error occurred while sending the form data.');
       this.message = 'An error occurred while sending the form data.';
     });
-
-
   }
 }

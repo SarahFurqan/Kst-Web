@@ -3,12 +3,6 @@
     padding: 100px;
     border-radius: 0px;
 }
-
-/* .heading .h5 {
-    margin-top: 170px;
-    width: 118px;
-} */
-
 .mt-5 {
     color: #29416F;
     font-weight: 600;
@@ -27,13 +21,15 @@
 .text {
     color: white !important;
     text-align: justify;
-     
+     font-size: 20px;
 }
 
 
 /* For Mobile*/
 @media only screen and (min-width:100px) and (max-width: 500px) {
-
+   .text{
+    font-size: 15px;
+   }
     .name {
         font-size: 24px;
     }
