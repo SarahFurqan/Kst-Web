@@ -69,12 +69,12 @@
                             <label>
                                 Phone Number
                             </label>
-                            <input class="form-control" type="text" formControlName="phone" placeholder="03001234567" />
+                            <input class="form-control" type="text" formControlName="phone" placeholder="03xx-xxxxxxx" />
                             <div *ngIf="form.get('phone')?.touched && form.get('phone')?.invalid">
                                 <div *ngIf="form.get('phone')?.errors?.['required']"
                                     style="font-size: 10px; color: brown;">*Required</div>
                                 <div *ngIf="form.get('phone')?.errors?.['pattern']"
-                                    style="font-size: 10px; color: brown;">*Invalid length</div>
+                                    style="font-size: 10px; color: brown;">*Invalid Pattern or length</div>
                             </div>
                         </div>
                     </div>
