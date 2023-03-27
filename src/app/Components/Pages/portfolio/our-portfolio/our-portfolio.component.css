@@ -8,120 +8,19 @@
     overflow: hidden !important;
 }
 
-/* 
-.btn-primary {
-    margin-left: 190px;
-    background: #29416F;
-    border-radius: 8px;
-    margin-bottom: 45px;
-}
-
-.btn-primary:hover {
-    background-color: #5EBE80 !important;
-    border: none;
-}
-
-
-.btn-secondary {
-    margin-left: 190px;
-    color: #29416F;
-    background: #F5F5F5;
-    border-radius: 8px;
-    margin-bottom: 45px;
-}
-
-.btn-secondary:hover {
-    border: none;
-    color: #F5F5F5;
-    background-color: #5EBE80 !important;
-} */
-
-/* For Mobile*/
 @media only screen and (min-width:100px) and (max-width: 500px) {
 
     .col {
         font-size: 27px;
     }
-
-    .btn-primary {
-        width: 80px;
-        height: 40px;
-        font-size: 10px;
-        margin: auto !important;
-        display: flex !important;
-    }
-
-    /* 
-    .btn-primary:hover {
-        background-color: #5EBE80 !important;
-        border: none;
-    }
-
-    .btn-secondary {
-        width: 80px;
-        height: 40px;
-        font-size: 10px;
-        margin: auto !important;
-        display: flex !important;
-
-    }
-
-    .btn-secondary:hover {
-        border: none;
-        color: #F5F5F5;
-        background-color: #5EBE80 !important;
-    } */
-
 }
 
-/* For large*/
-@media only screen and (min-width:501px) and (max-width: 767px) {
 
+@media only screen and (min-width:501px) and (max-width: 767px) {
 
     .col {
         font-size: 31px;
     }
-
-    .btn-primary {
-        margin: auto !important;
-        display: flex !important;
-    }
-
-    .btn-secondary {
-        margin: auto !important;
-        display: flex !important;
-    }
-
-    .btn-primary:hover {
-        background-color: #5EBE80 !important;
-        border: none;
-    }
-
-    .btn-secondary:hover {
-        background-color: #5EBE80 !important;
-        border: none;
-    }
 }
 
-/* for x-large */
-@media only screen and (min-width:768px) and (max-width: 1200px) {
-    .btn-primary {
-        margin-left: 190px;
 
-    }
-
-    .btn-primary:hover {
-        background-color: #5EBE80 !important;
-        border: none;
-    }
-
-    .btn-secondary {
-
-        margin-left: 190px;
-    }
-
-    .btn-secondary:hover {
-        background-color: #5EBE80 !important;
-        border: none;
-    }
-}
